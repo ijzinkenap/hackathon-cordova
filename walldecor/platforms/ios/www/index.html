@@ -9,7 +9,13 @@
         <meta name="msapplication-tap-highlight" content="no" />
         <title>Walldecor Editor</title>
     </head>
-    <body class="desktop startup" id="application">
+    <body class="desktop " id="application">
+        
+        IMAGE WITH PROJECTS LIST<br>
+        CLICK ON PLUS TO GO TO EDITOR<br>
+        <a href="javascript:takePicture();">GO TO EDITOR </a>
+        
+        
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
@@ -26,10 +32,15 @@
             // invoked by Cordova when device is ready
             function loadApplication()
             {
+                
+            }
+        
+            function launchEditor()
+            {
                 var script = document.createElement( "script" );
                 script.setAttribute( "type", "text/javascript" );
                 script.setAttribute( "src", "assets/js/application.js" );
-
+            
                 document.getElementsByTagName( "head" )[ 0 ].appendChild( script );
             }
 
