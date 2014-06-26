@@ -11,6 +11,10 @@
                         {
                             "xml": "<feature name=\"FileChooser\"><param name=\"android-package\" value=\"com.cesidiodibenedetto.filechooser.FileChooser\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Camera\"><param name=\"android-package\" value=\"org.apache.cordova.camera.CameraLauncher\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -66,6 +70,12 @@
                             "xml": "<provider android:authorities=\"com.ianhanniballake.localstorage.documents\" android:enabled=\"@bool/use_provider\" android:exported=\"true\" android:grantUriPermissions=\"true\" android:name=\"com.ianhanniballake.localstorage.LocalStorageProvider\" android:permission=\"android.permission.MANAGE_DOCUMENTS\"><intent-filter><action android:name=\"android.content.action.DOCUMENTS_PROVIDER\" /></intent-filter></provider>",
                             "count": 1
                         }
+                    ],
+                    "/*": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
+                            "count": 1
+                        }
                     ]
                 }
             }
@@ -73,6 +83,9 @@
     },
     "installed_plugins": {
         "com.cesidiodibenedetto.filechooser": {
+            "PACKAGE_NAME": "com.albumprinter.walldecor"
+        },
+        "org.apache.cordova.camera": {
             "PACKAGE_NAME": "com.albumprinter.walldecor"
         }
     },
