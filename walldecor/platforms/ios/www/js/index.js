@@ -43,20 +43,50 @@ var app = {
 
 };
 
+// SHOWS THE PHOTO LIBRAEY PHOTO SELECTOR
+function choosePicture()
+{
+    navigator.camera.getPicture(onSuccess, onFail, { sourceType : Camera.PictureSourceType.PHOTOLIBRARY });
+}
 
+// OPENS THE CAMERA AND ALLOWS USER TO TAKE A PICTURE
 function takePicture()
 {
     navigator.camera.getPicture(onSuccess, onFail, {
-        quality: 50,
-        destinationType: Camera.DestinationType.DATA_URL
+        quality: 80,
+        destinationType: Camera.DestinationType.FILE_URI
     });
 }
 
+
+// ON SUCCESS
+// put the image in the "imapePlaceholder" element, in order to make it available to the editor
 function onSuccess(imageData) {
-    var image = document.getElementById('myImage');
-    image.src = "data:image/jpeg;base64," + imageData;
+    var image = document.getElementById('imagePlaceholder');
+    image.src = imageData;
+    launchEditor();
 }
 
+// ON ERROR
+// returnr to page 2
 function onFail(message) {
-    alert('Failed because: ' + message);
+    //alert('Failed because: ' + message);
+    //launchEditor();
+}
+
+
+// Launch the actual editor 
+function launchEditor()
+{
+    var script = document.createElement( "script" );
+    script.setAttribute( "type", "text/javascript" );
+    script.setAttribute( "src", "assets/js/application.js" );
+    
+    document.getElementsByTagName( "head" )[ 0 ].appendChild( script );
+}
+
+// Function to launch the camera with an image on top as if in Preview mode
+function previewImage()
+{
+    //cordova.plugins.dbcamera.openCameraWithoutContainer(onSuccess, onFail);
 }
