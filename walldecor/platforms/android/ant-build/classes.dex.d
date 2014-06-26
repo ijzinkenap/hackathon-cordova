@@ -1,0 +1,27 @@
+/Users/izinken/Documents/Projects/CordovaPOC/walldecor/platforms/android/ant-build/classes.dex : \
+/Users/izinken/Documents/Projects/CordovaPOC/walldecor/platforms/android/ant-build/classes/com/albumprinter/walldecor/BuildConfig.class \
+/Users/izinken/Documents/Projects/CordovaPOC/walldecor/platforms/android/ant-build/classes/com/albumprinter/walldecor/R$attr.class \
+/Users/izinken/Documents/Projects/CordovaPOC/walldecor/platforms/android/ant-build/classes/com/albumprinter/walldecor/R$bool.class \
+/Users/izinken/Documents/Projects/CordovaPOC/walldecor/platforms/android/ant-build/classes/com/albumprinter/walldecor/R$dimen.class \
+/Users/izinken/Documents/Projects/CordovaPOC/walldecor/platforms/android/ant-build/classes/com/albumprinter/walldecor/R$drawable.class \
+/Users/izinken/Documents/Projects/CordovaPOC/walldecor/platforms/android/ant-build/classes/com/albumprinter/walldecor/R$layout.class \
+/Users/izinken/Documents/Projects/CordovaPOC/walldecor/platforms/android/ant-build/classes/com/albumprinter/walldecor/R$string.class \
+/Users/izinken/Documents/Projects/CordovaPOC/walldecor/platforms/android/ant-build/classes/com/albumprinter/walldecor/R$style.class \
+/Users/izinken/Documents/Projects/CordovaPOC/walldecor/platforms/android/ant-build/classes/com/albumprinter/walldecor/R$xml.class \
+/Users/izinken/Documents/Projects/CordovaPOC/walldecor/platforms/android/ant-build/classes/com/albumprinter/walldecor/R.class \
+/Users/izinken/Documents/Projects/CordovaPOC/walldecor/platforms/android/ant-build/classes/com/albumprinter/walldecor/Walldecor.class \
+/Users/izinken/Documents/Projects/CordovaPOC/walldecor/platforms/android/ant-build/classes/com/cesidiodibenedetto/filechooser/FileChooser.class \
+/Users/izinken/Documents/Projects/CordovaPOC/walldecor/platforms/android/ant-build/classes/com/ianhanniballake/localstorage/LocalStorageProvider.class \
+/Users/izinken/Documents/Projects/CordovaPOC/walldecor/platforms/android/ant-build/classes/com/ipaulpro/afilechooser/FileChooserActivity$1.class \
+/Users/izinken/Documents/Projects/CordovaPOC/walldecor/platforms/android/ant-build/classes/com/ipaulpro/afilechooser/FileChooserActivity.class \
+/Users/izinken/Documents/Projects/CordovaPOC/walldecor/platforms/android/ant-build/classes/com/ipaulpro/afilechooser/FileListAdapter.class \
+/Users/izinken/Documents/Projects/CordovaPOC/walldecor/platforms/android/ant-build/classes/com/ipaulpro/afilechooser/FileListFragment$Callbacks.class \
+/Users/izinken/Documents/Projects/CordovaPOC/walldecor/platforms/android/ant-build/classes/com/ipaulpro/afilechooser/FileListFragment.class \
+/Users/izinken/Documents/Projects/CordovaPOC/walldecor/platforms/android/ant-build/classes/com/ipaulpro/afilechooser/FileLoader$1.class \
+/Users/izinken/Documents/Projects/CordovaPOC/walldecor/platforms/android/ant-build/classes/com/ipaulpro/afilechooser/FileLoader.class \
+/Users/izinken/Documents/Projects/CordovaPOC/walldecor/platforms/android/ant-build/classes/com/ipaulpro/afilechooser/utils/FileUtils$1.class \
+/Users/izinken/Documents/Projects/CordovaPOC/walldecor/platforms/android/ant-build/classes/com/ipaulpro/afilechooser/utils/FileUtils$2.class \
+/Users/izinken/Documents/Projects/CordovaPOC/walldecor/platforms/android/ant-build/classes/com/ipaulpro/afilechooser/utils/FileUtils$3.class \
+/Users/izinken/Documents/Projects/CordovaPOC/walldecor/platforms/android/ant-build/classes/com/ipaulpro/afilechooser/utils/FileUtils.class \
+/Users/izinken/Documents/Projects/CordovaPOC/walldecor/platforms/android/ant-build/dexedLibs/classes-463ca21279eb89cc6cb30cf11343a9c7.jar \
+/Users/izinken/Documents/Projects/CordovaPOC/walldecor/platforms/android/ant-build/dexedLibs/android-support-v4-0fea839f6a22fe43f893c20381b86069.jar \

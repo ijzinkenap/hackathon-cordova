@@ -1,0 +1,126 @@
+<objects xmlns="http://www.springactionscript.org/schema/objects"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.springactionscript.org/schema/objects http://www.springactionscript.org/schema/objects/spring-actionscript-objects-1.0.xsd">
+    <!--=========================================\\
+        ||            Merchant Mappings 		  ||
+        \\==========================================-->
+
+    <object id="arrayCollectionOfMerchantMappings" class="mx.collections.ArrayCollection">
+        <constructor-arg>
+            <array>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="albelli"/>
+                    <constructor-arg value="albelli.nl"/>
+                    <constructor-arg value="1200.canvas.photoconnector.net"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="albelli"/>
+                    <constructor-arg value="albelli.de"/>
+                    <constructor-arg value="1201.canvas.photoconnector.net"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="albelli"/>
+                    <constructor-arg value="albelli.fr"/>
+                    <constructor-arg value="1203.canvas.photoconnector.net"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="albelli"/>
+                    <constructor-arg value="albelli.co.uk"/>
+                    <constructor-arg value="1205.canvas.photoconnector.net"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="albelli"/>
+                    <constructor-arg value="albelli.be"/>
+                    <constructor-arg value="1207.canvas.photoconnector.net"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="albelli"/>
+                    <constructor-arg value="albelli.it"/>
+                    <constructor-arg value="1209.canvas.photoconnector.net"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="albelli"/>
+                    <constructor-arg value="albelli.es"/>
+                    <constructor-arg value="1210.canvas.photoconnector.net"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="albelli"/>
+                    <constructor-arg value="albelli.com"/>
+                    <constructor-arg value="1212.canvas.photoconnector.net"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="albelli"/>
+                    <constructor-arg value="albelli.se"/>
+                    <constructor-arg value="1213.canvas.photoconnector.net"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="albelli"/>
+                    <constructor-arg value="albelli.no"/>
+                    <constructor-arg value="1214.canvas.photoconnector.net"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="bonusprint"/>
+                    <constructor-arg value="bonusprint.co.uk"/>
+                    <constructor-arg value="1221.canvas.photoconnector.net"/>
+                </object>
+
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="albelli"/>
+                    <constructor-arg value="albelli.nl"/>
+                    <constructor-arg value="1200.canvas.flash.photoconnector.net"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="albelli"/>
+                    <constructor-arg value="albelli.de"/>
+                    <constructor-arg value="1201.canvas.flash.photoconnector.net"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="albelli"/>
+                    <constructor-arg value="albelli.fr"/>
+                    <constructor-arg value="1203.canvas.flash.photoconnector.net"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="albelli"/>
+                    <constructor-arg value="albelli.co.uk"/>
+                    <constructor-arg value="1205.canvas.flash.photoconnector.net"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="albelli"/>
+                    <constructor-arg value="albelli.be"/>
+                    <constructor-arg value="1207.canvas.flash.photoconnector.net"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="albelli"/>
+                    <constructor-arg value="albelli.es"/>
+                    <constructor-arg value="1209.canvas.flash.photoconnector.net"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="albelli"/>
+                    <constructor-arg value="albelli.it"/>
+                    <constructor-arg value="1210.canvas.flash.photoconnector.net"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="albelli"/>
+                    <constructor-arg value="albelli.com"/>
+                    <constructor-arg value="1212.canvas.flash.photoconnector.net"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="albelli"/>
+                    <constructor-arg value="albelli.se"/>
+                    <constructor-arg value="1213.canvas.flash.photoconnector.net"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="albelli"/>
+                    <constructor-arg value="albelli.no"/>
+                    <constructor-arg value="1214.canvas.flash.photoconnector.net"/>
+                </object>
+                <object class="com.albumprinter.chameleon.data.domain.merchant.MerchantMapping">
+                    <constructor-arg value="bonusprint"/>
+                    <constructor-arg value="bonusprint.co.uk"/>
+                    <constructor-arg value="1221.canvas.flash.photoconnector.net"/>
+                </object>
+            </array>
+        </constructor-arg>
+    </object>
+
+</objects>

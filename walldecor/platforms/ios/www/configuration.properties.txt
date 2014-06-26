@@ -1,0 +1,32 @@
+#Possible values are 'ALL', 'DEBUG', 'INFO', 'WARN', 'ERROR', 'FATAL'.
+logLevel=INFO
+onlineLogUrl=http://t-dtap.serverfarm1.photoconnector.net/xclientlogging/ClientLogging.asmx?wsdl
+
+#webservice urls
+assetService.base=http://assets.api.photoconnector.net/
+assetService.url=http://assets.api.photoconnector.net/
+orderService.wsdl=http://t-dtap.serverfarm1.photoconnector.net/WebInterface/V20091020-Ordering.asmx?WSDL
+photoStorage.wsdl=http://t-dtap.serverfarm1.photoconnector.net/WebInterface/v20090630-PhotoStorage.asmx?WSDL
+merchandise.baseUrl=http://t-dtap.api.albumprinter.com/Catalog
+uploadApi.url=http://t-dtap.api.photoconnector.net/UploadApi/Uploads?format=xml
+onlineShopApi.url=http://t-dtap.api.photoconnector.net/onlineshopapi
+#Upload proxy used by Internet Explorer Flash transporter
+productUploadProxy.url=http://46.51.138.199/APnextPhotoProxy/Upload.ashx
+
+#upload url
+photoUploadUrl=http://t-dtap.serverfarm1.photoconnector.net/WebInterface/LocalPhoto.ashx
+
+#locale
+languageFileRoot=locale
+languageFileName=general.xml
+
+#config
+configFileRoot=config
+configFileName=config.xml
+analyticsFileName=analytics-mapping.xml
+
+#editor config
+xsd.schemaLocation=http://schemas.file.t-dtap.photoconnector.net/Editor/30/ProductExtension.xsd
+
+#additional configurations
+preparePrintArea=false

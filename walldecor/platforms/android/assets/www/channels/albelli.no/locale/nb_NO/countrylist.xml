@@ -1,0 +1,1862 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<countries xsi:noNamespaceSchemaLocation="countrylist.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<country>
+		<label><![CDATA[Storbritannia]]></label>
+		<data><![CDATA[GB]]></data>
+		<zoneid><![CDATA[2]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+
+		<label><![CDATA[Belgia]]></label>
+		<data><![CDATA[BE]]></data>
+		<zoneid><![CDATA[2]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Tyskland]]></label>
+		<data><![CDATA[DE]]></data>
+
+		<zoneid><![CDATA[2]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Danmark]]></label>
+		<data><![CDATA[DK]]></data>
+		<zoneid><![CDATA[2]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Spania]]></label>
+		<data><![CDATA[ES]]></data>
+		<zoneid><![CDATA[2]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+
+	<country>
+		<label><![CDATA[Finland]]></label>
+		<data><![CDATA[FI]]></data>
+		<zoneid><![CDATA[2]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Frankrike]]></label>
+
+		<data><![CDATA[FR]]></data>
+		<zoneid><![CDATA[2]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Hellas]]></label>
+		<data><![CDATA[GR]]></data>
+		<zoneid><![CDATA[2]]></zoneid>
+
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Irland]]></label>
+		<data><![CDATA[IE]]></data>
+		<zoneid><![CDATA[2]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+
+	</country>
+	<country>
+		<label><![CDATA[Italia]]></label>
+		<data><![CDATA[IT]]></data>
+		<zoneid><![CDATA[2]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+
+		<label><![CDATA[Luxemburg]]></label>
+		<data><![CDATA[LU]]></data>
+		<zoneid><![CDATA[2]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Malta]]></label>
+		<data><![CDATA[MT]]></data>
+
+		<zoneid><![CDATA[2]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Nederland]]></label>
+		<data><![CDATA[NL]]></data>
+		<zoneid><![CDATA[1]]></zoneid>
+		<zipCodeExample><![CDATA[1234AB]]></zipCodeExample>
+
+		<zipCodeExpression><![CDATA[^([0-9]{4}\s?[a-zA-Z]{2})$]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Norge]]></label>
+		<data><![CDATA[NO]]></data>
+		<zoneid><![CDATA[2]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+
+	<country>
+		<label><![CDATA[Portugal]]></label>
+		<data><![CDATA[PT]]></data>
+		<zoneid><![CDATA[2]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Sverige]]></label>
+
+		<data><![CDATA[SE]]></data>
+		<zoneid><![CDATA[2]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Sveits]]></label>
+		<data><![CDATA[CH]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Andorra]]></label>
+		<data><![CDATA[AD]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+
+	</country>
+	<country>
+		<label><![CDATA[Forente Arabiske Emirater]]></label>
+		<data><![CDATA[AE]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+
+		<label><![CDATA[Afghanistan]]></label>
+		<data><![CDATA[AF]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Antigua og Barbuda]]></label>
+		<data><![CDATA[AG]]></data>
+
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Anguilla]]></label>
+		<data><![CDATA[AI]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Albania]]></label>
+		<data><![CDATA[AL]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+
+	<country>
+		<label><![CDATA[Armenia]]></label>
+		<data><![CDATA[AM]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Nederlandske Antiller]]></label>
+
+		<data><![CDATA[AN]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Angola]]></label>
+		<data><![CDATA[AO]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Antarktis]]></label>
+		<data><![CDATA[AQ]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+
+	</country>
+	<country>
+		<label><![CDATA[Argentina]]></label>
+		<data><![CDATA[AR]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+
+		<label><![CDATA[Amerikansk Samoa]]></label>
+		<data><![CDATA[AS]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Østerrike]]></label>
+		<data><![CDATA[AT]]></data>
+
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Australia]]></label>
+		<data><![CDATA[AU]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Aruba]]></label>
+		<data><![CDATA[AW]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+
+	<country>
+		<label><![CDATA[Aserbajdsjan]]></label>
+		<data><![CDATA[AZ]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Bosnia og Herzegovina]]></label>
+
+		<data><![CDATA[BA]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Barbados]]></label>
+		<data><![CDATA[BB]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Bangladesh]]></label>
+		<data><![CDATA[BD]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+
+	</country>
+	<country>
+		<label><![CDATA[Burkina Faso]]></label>
+		<data><![CDATA[BF]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+
+		<label><![CDATA[Bulgaria]]></label>
+		<data><![CDATA[BG]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Bahrain]]></label>
+		<data><![CDATA[BH]]></data>
+
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Burundi]]></label>
+		<data><![CDATA[BI]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Benin]]></label>
+		<data><![CDATA[BJ]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+
+	<country>
+		<label><![CDATA[Bermuda]]></label>
+		<data><![CDATA[BM]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Brunei]]></label>
+
+		<data><![CDATA[BN]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Bolivia]]></label>
+		<data><![CDATA[BO]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Brasil]]></label>
+		<data><![CDATA[BR]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+
+	</country>
+	<country>
+		<label><![CDATA[Bahamas]]></label>
+		<data><![CDATA[BS]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+
+		<label><![CDATA[Bhutan]]></label>
+		<data><![CDATA[BT]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Bouvetøya]]></label>
+		<data><![CDATA[BV]]></data>
+
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Botswana]]></label>
+		<data><![CDATA[BW]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Hviterussland]]></label>
+		<data><![CDATA[BY]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+
+	<country>
+		<label><![CDATA[Belize]]></label>
+		<data><![CDATA[BZ]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Canada]]></label>
+
+		<data><![CDATA[CA]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Cocosøyene (Keeling)]]></label>
+		<data><![CDATA[CC]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Kongo, den Demokratiske Republikk]]></label>
+		<data><![CDATA[CD]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+
+	</country>
+	<country>
+		<label><![CDATA[Den sentralafrikanske republikk]]></label>
+		<data><![CDATA[CF]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+
+		<label><![CDATA[Kongo]]></label>
+		<data><![CDATA[CG]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Elfenbenskysten]]></label>
+		<data><![CDATA[CI]]></data>
+
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Cook-øyene]]></label>
+		<data><![CDATA[CK]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Chile]]></label>
+		<data><![CDATA[CL]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+
+	<country>
+		<label><![CDATA[Kamerun]]></label>
+		<data><![CDATA[CM]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Kina]]></label>
+
+		<data><![CDATA[CN]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Colombia]]></label>
+		<data><![CDATA[CO]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Costa Rica]]></label>
+		<data><![CDATA[CR]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+
+	</country>
+	<country>
+		<label><![CDATA[Cuba]]></label>
+		<data><![CDATA[CU]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+
+		<label><![CDATA[Kapp Verde]]></label>
+		<data><![CDATA[CV]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Christmasøya]]></label>
+		<data><![CDATA[CX]]></data>
+
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Kypros]]></label>
+		<data><![CDATA[CY]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Den Tsjekkiske Republikk]]></label>
+		<data><![CDATA[CZ]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+
+	<country>
+		<label><![CDATA[Djibouti]]></label>
+		<data><![CDATA[DJ]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Dominica]]></label>
+
+		<data><![CDATA[DM]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Den Dominikanske Republikk]]></label>
+		<data><![CDATA[DO]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Algerie]]></label>
+		<data><![CDATA[DZ]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+
+	</country>
+	<country>
+		<label><![CDATA[Ecuador]]></label>
+		<data><![CDATA[EC]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+
+		<label><![CDATA[Estland]]></label>
+		<data><![CDATA[EE]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Egypt]]></label>
+		<data><![CDATA[EG]]></data>
+
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Eritrea]]></label>
+		<data><![CDATA[ER]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Etiopia]]></label>
+		<data><![CDATA[ET]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+
+	<country>
+		<label><![CDATA[Fijiøyene]]></label>
+		<data><![CDATA[FJ]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Falklandsøyene]]></label>
+
+		<data><![CDATA[FK]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Mikronesia]]></label>
+		<data><![CDATA[FM]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Færøyene]]></label>
+		<data><![CDATA[FO]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+
+	</country>
+	<country>
+		<label><![CDATA[Gabon]]></label>
+		<data><![CDATA[GA]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+
+		<label><![CDATA[Grenada]]></label>
+		<data><![CDATA[GD]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Georgia]]></label>
+		<data><![CDATA[GE]]></data>
+
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Fransk Guyana]]></label>
+		<data><![CDATA[GF]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Ghana]]></label>
+		<data><![CDATA[GH]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+
+	<country>
+		<label><![CDATA[Gibraltar]]></label>
+		<data><![CDATA[GI]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Grønland]]></label>
+
+		<data><![CDATA[GL]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Gambia]]></label>
+		<data><![CDATA[GM]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Guinea]]></label>
+		<data><![CDATA[GN]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+
+	</country>
+	<country>
+		<label><![CDATA[Guadeloupe]]></label>
+		<data><![CDATA[GP]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+
+		<label><![CDATA[Ekvatorial-Guinea]]></label>
+		<data><![CDATA[GQ]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Sør-Georgia og Sør-Sandwichøyene]]></label>
+		<data><![CDATA[GS]]></data>
+
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Guatemala]]></label>
+		<data><![CDATA[GT]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Guam]]></label>
+		<data><![CDATA[GU]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+
+	<country>
+		<label><![CDATA[Guinea-Bissau]]></label>
+		<data><![CDATA[GW]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Guyana]]></label>
+
+		<data><![CDATA[GY]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Hongkong S.A.R.]]></label>
+		<data><![CDATA[HK]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Heard- og McDonald-øyene]]></label>
+		<data><![CDATA[HM]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+
+	</country>
+	<country>
+		<label><![CDATA[Honduras]]></label>
+		<data><![CDATA[HN]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+
+		<label><![CDATA[Kroatia (Hrvatska)]]></label>
+		<data><![CDATA[HR]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Haiti]]></label>
+		<data><![CDATA[HT]]></data>
+
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Ungarn]]></label>
+		<data><![CDATA[HU]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Indonesia]]></label>
+		<data><![CDATA[ID]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+
+	<country>
+		<label><![CDATA[Israel]]></label>
+		<data><![CDATA[IL]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[India]]></label>
+
+		<data><![CDATA[IN]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Det britiske territorium i Det indiske hav]]></label>
+		<data><![CDATA[IO]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Irak]]></label>
+		<data><![CDATA[IQ]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+
+	</country>
+	<country>
+		<label><![CDATA[Iran]]></label>
+		<data><![CDATA[IR]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+
+		<label><![CDATA[Island]]></label>
+		<data><![CDATA[IS]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Jamaica]]></label>
+		<data><![CDATA[JM]]></data>
+
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Jordan]]></label>
+		<data><![CDATA[JO]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Japan]]></label>
+		<data><![CDATA[JP]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+
+	<country>
+		<label><![CDATA[Kenya]]></label>
+		<data><![CDATA[KE]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Kyrgystan]]></label>
+
+		<data><![CDATA[KG]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Kambodsja]]></label>
+		<data><![CDATA[KH]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Kiribati]]></label>
+		<data><![CDATA[KI]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+
+	</country>
+	<country>
+		<label><![CDATA[Komorene]]></label>
+		<data><![CDATA[KM]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+
+		<label><![CDATA[Saint Kitts og Nevis]]></label>
+		<data><![CDATA[KN]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Korea, Nord]]></label>
+		<data><![CDATA[KP]]></data>
+
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Korea, Sør]]></label>
+		<data><![CDATA[KR]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Kuwait]]></label>
+		<data><![CDATA[KW]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+
+	<country>
+		<label><![CDATA[Caymanøyene]]></label>
+		<data><![CDATA[KY]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Kasakhstan]]></label>
+
+		<data><![CDATA[KZ]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Laos]]></label>
+		<data><![CDATA[LA]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Libanon]]></label>
+		<data><![CDATA[LB]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+
+	</country>
+	<country>
+		<label><![CDATA[St. Lucia]]></label>
+		<data><![CDATA[LC]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+
+		<label><![CDATA[Lichtenstein]]></label>
+		<data><![CDATA[LI]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Sri Lanka]]></label>
+		<data><![CDATA[LK]]></data>
+
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Liberia]]></label>
+		<data><![CDATA[LR]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Lesotho]]></label>
+		<data><![CDATA[LS]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+
+	<country>
+		<label><![CDATA[Litauen]]></label>
+		<data><![CDATA[LT]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Latvia]]></label>
+
+		<data><![CDATA[LV]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Libya]]></label>
+		<data><![CDATA[LY]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Marokko]]></label>
+		<data><![CDATA[MA]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+
+	</country>
+	<country>
+		<label><![CDATA[Monaco]]></label>
+		<data><![CDATA[MC]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+
+		<label><![CDATA[Moldova]]></label>
+		<data><![CDATA[MD]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Madagaskar]]></label>
+		<data><![CDATA[MG]]></data>
+
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Marshalløyene]]></label>
+		<data><![CDATA[MH]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Makedonia]]></label>
+		<data><![CDATA[MK]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+
+	<country>
+		<label><![CDATA[Mali]]></label>
+		<data><![CDATA[ML]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Burma]]></label>
+
+		<data><![CDATA[MM]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Mongolia]]></label>
+		<data><![CDATA[MN]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Makau S.A.R.]]></label>
+		<data><![CDATA[MO]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+
+	</country>
+	<country>
+		<label><![CDATA[Nord-Marianene]]></label>
+		<data><![CDATA[MP]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+
+		<label><![CDATA[Martinique]]></label>
+		<data><![CDATA[MQ]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Mauretania]]></label>
+		<data><![CDATA[MR]]></data>
+
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Montserrat]]></label>
+		<data><![CDATA[MS]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Mauritius]]></label>
+		<data><![CDATA[MU]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+
+	<country>
+		<label><![CDATA[Maldivene]]></label>
+		<data><![CDATA[MV]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Malawi]]></label>
+
+		<data><![CDATA[MW]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Mexico]]></label>
+		<data><![CDATA[MX]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Malaysia]]></label>
+		<data><![CDATA[MY]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+
+	</country>
+	<country>
+		<label><![CDATA[Mosambik]]></label>
+		<data><![CDATA[MZ]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+
+		<label><![CDATA[Namibia]]></label>
+		<data><![CDATA[NA]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Ny-Kaledonia]]></label>
+		<data><![CDATA[NC]]></data>
+
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Nigeria]]></label>
+		<data><![CDATA[NE]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Norfolkøyene]]></label>
+		<data><![CDATA[NF]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+
+	<country>
+		<label><![CDATA[Nigeria]]></label>
+		<data><![CDATA[NG]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Nicaragua]]></label>
+
+		<data><![CDATA[NI]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Nepal]]></label>
+		<data><![CDATA[NP]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Nauru]]></label>
+		<data><![CDATA[NR]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+
+	</country>
+	<country>
+		<label><![CDATA[Niue]]></label>
+		<data><![CDATA[NU]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+
+		<label><![CDATA[Ny-Zealand]]></label>
+		<data><![CDATA[NZ]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Oman]]></label>
+		<data><![CDATA[OM]]></data>
+
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Panama]]></label>
+		<data><![CDATA[PA]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Peru]]></label>
+		<data><![CDATA[PE]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+
+	<country>
+		<label><![CDATA[Fransk Polynesia]]></label>
+		<data><![CDATA[PF]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Papua Ny Guinea]]></label>
+
+		<data><![CDATA[PG]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Filippinene]]></label>
+		<data><![CDATA[PH]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Pakistan]]></label>
+		<data><![CDATA[PK]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+
+	</country>
+	<country>
+		<label><![CDATA[Polen]]></label>
+		<data><![CDATA[PL]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+
+		<label><![CDATA[Saint Pierre og Miquelon]]></label>
+		<data><![CDATA[PM]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Pitcairnøya]]></label>
+		<data><![CDATA[PN]]></data>
+
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Puerto Rico]]></label>
+		<data><![CDATA[PR]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Palau]]></label>
+		<data><![CDATA[PW]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+
+	<country>
+		<label><![CDATA[Paraguay]]></label>
+		<data><![CDATA[PY]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Qatar]]></label>
+
+		<data><![CDATA[QA]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Reunion]]></label>
+		<data><![CDATA[RE]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Romania]]></label>
+		<data><![CDATA[RO]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+
+	</country>
+	<country>
+		<label><![CDATA[Russland]]></label>
+		<data><![CDATA[RU]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+
+		<label><![CDATA[Rwanda]]></label>
+		<data><![CDATA[RW]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Saudi-Arabia]]></label>
+		<data><![CDATA[SA]]></data>
+
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Solomonøyene]]></label>
+		<data><![CDATA[SB]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Seychellene]]></label>
+		<data><![CDATA[SC]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+
+	<country>
+		<label><![CDATA[Sudan]]></label>
+		<data><![CDATA[SD]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Singapore]]></label>
+
+		<data><![CDATA[SG]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Sankt Helena]]></label>
+		<data><![CDATA[SH]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Slovenia]]></label>
+		<data><![CDATA[SI]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+
+	</country>
+	<country>
+		<label><![CDATA[Svalbard og Jan Mayen]]></label>
+		<data><![CDATA[SJ]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+
+		<label><![CDATA[Slovakia]]></label>
+		<data><![CDATA[SK]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Sierra Leone]]></label>
+		<data><![CDATA[SL]]></data>
+
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[San Marino]]></label>
+		<data><![CDATA[SM]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Senegal]]></label>
+		<data><![CDATA[SN]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+
+	<country>
+		<label><![CDATA[Somalia]]></label>
+		<data><![CDATA[SO]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Surinam]]></label>
+
+		<data><![CDATA[SR]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Sao Tome og Principe]]></label>
+		<data><![CDATA[ST]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[El Salvador]]></label>
+		<data><![CDATA[SV]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+
+	</country>
+	<country>
+		<label><![CDATA[Syria]]></label>
+		<data><![CDATA[SY]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+
+		<label><![CDATA[Swaziland]]></label>
+		<data><![CDATA[SZ]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Turks- og Caicosøyene]]></label>
+		<data><![CDATA[TC]]></data>
+
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Chad]]></label>
+		<data><![CDATA[TD]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Franske sørlige territorier]]></label>
+		<data><![CDATA[TF]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+
+	<country>
+		<label><![CDATA[Togo]]></label>
+		<data><![CDATA[TG]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Thailand]]></label>
+
+		<data><![CDATA[TH]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Tadsjikistan]]></label>
+		<data><![CDATA[TJ]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Tokelau]]></label>
+		<data><![CDATA[TK]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+
+	</country>
+	<country>
+		<label><![CDATA[Turkmenistan]]></label>
+		<data><![CDATA[TM]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+
+		<label><![CDATA[Tunisia]]></label>
+		<data><![CDATA[TN]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Tonga]]></label>
+		<data><![CDATA[TO]]></data>
+
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Øst-Timor]]></label>
+		<data><![CDATA[TP]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Tyrkia]]></label>
+		<data><![CDATA[TR]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+
+	<country>
+		<label><![CDATA[Trinidad og Tobago]]></label>
+		<data><![CDATA[TT]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Tuvalu]]></label>
+
+		<data><![CDATA[TV]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Taiwan]]></label>
+		<data><![CDATA[TW]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Tanzania]]></label>
+		<data><![CDATA[TZ]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+
+	</country>
+	<country>
+		<label><![CDATA[Ukraina]]></label>
+		<data><![CDATA[UA]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+
+		<label><![CDATA[Uganda]]></label>
+		<data><![CDATA[UG]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[USAs ytre småøyer]]></label>
+		<data><![CDATA[UM]]></data>
+
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[USA]]></label>
+		<data><![CDATA[US]]></data>
+		<zoneid><![CDATA[3" regionname="State]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Uruguay]]></label>
+		<data><![CDATA[UY]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+
+	<country>
+		<label><![CDATA[Usbekistan]]></label>
+		<data><![CDATA[UZ]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Vatikanstaten]]></label>
+
+		<data><![CDATA[VA]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Saint Vincent og Grenadinene]]></label>
+		<data><![CDATA[VC]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Venezuela]]></label>
+		<data><![CDATA[VE]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+
+	</country>
+	<country>
+		<label><![CDATA[Jomfruøyene (Storbritannia)]]></label>
+		<data><![CDATA[VG]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+
+		<label><![CDATA[Jomfruøyene (USA)]]></label>
+		<data><![CDATA[VI]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Vietnam]]></label>
+		<data><![CDATA[VN]]></data>
+
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Vanuatu]]></label>
+		<data><![CDATA[VU]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Wallis og Futunaøyene]]></label>
+		<data><![CDATA[WF]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+
+	<country>
+		<label><![CDATA[Samoa]]></label>
+		<data><![CDATA[WS]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Jemen]]></label>
+
+		<data><![CDATA[YE]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Mayotte]]></label>
+		<data><![CDATA[YT]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Montenegro]]></label>
+		<data><![CDATA[ME]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+
+	</country>
+	<country>
+		<label><![CDATA[Serbia]]></label>
+		<data><![CDATA[RS]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+
+		<label><![CDATA[Kosovo]]></label>
+		<data><![CDATA[XK]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Sør-Afrika]]></label>
+		<data><![CDATA[ZA]]></data>
+
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Zambia]]></label>
+		<data><![CDATA[ZM]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+	<country>
+		<label><![CDATA[Zimbabwe]]></label>
+		<data><![CDATA[ZW]]></data>
+		<zoneid><![CDATA[3]]></zoneid>
+		<zipCodeExample></zipCodeExample>
+		<zipCodeExpression><![CDATA[^]]></zipCodeExpression>
+	</country>
+
+</countries>

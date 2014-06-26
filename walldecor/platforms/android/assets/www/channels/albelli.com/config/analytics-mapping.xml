@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <productCategoryMap>
+        <articleType type="Canvas" value="Canvas Prints"/>
+        <articleType type="Aluminium" value="AluDibond"/>
+        <articleType type="Perspex" value="Acrylic wall art"/>
+        <articleType type="Mug" value="Mugs"/>
+        <articleType type="PhoneCase" value="Phone cases"/>
+    </productCategoryMap>
+    <eventMap trackingEventsQueueSize="10" trackingEventsQueueTimeout="30000">
+        <!-- Page view events -->
+        <event type="SIZE_SELECTION" immediate="true" maxCount="0" method="page">
+            <variables>
+                <pageName><![CDATA[{USERAGENTNAME} : /Size selection]]></pageName>
+                <eVar41><![CDATA[{USERAGENTNAME} : /Size selection]]></eVar41>
+                <hier1><![CDATA[{USERAGENTNAME}:Size selection]]></hier1>
+                <channel><![CDATA[{USERAGENTNAME}]]></channel>
+                <prop4><![CDATA[{USERAGENTNAME}]]></prop4>
+                <prop2><![CDATA[{PRODUCTCATEGORY}]]></prop2>
+                <products><![CDATA[{PRODUCTSTRING}]]></products>
+                <events><![CDATA[event100]]></events>
+            </variables>
+            <cleanup><![CDATA[pageName,eVar41,hier1,channel,prop4,prop2,products,eVar8,events]]></cleanup>
+        </event>
+        <event type="CREATE_PRODUCT" immediate="true" maxCount="0" method="page">
+            <variables>
+                <pageName><![CDATA[{USERAGENTNAME} : /Create product]]></pageName>
+                <eVar41><![CDATA[{USERAGENTNAME} : /Create product]]></eVar41>
+                <hier1><![CDATA[{USERAGENTNAME}:Create product]]></hier1>
+                <channel><![CDATA[{USERAGENTNAME}]]></channel>
+                <prop4><![CDATA[{USERAGENTNAME}]]></prop4>
+                <prop2><![CDATA[{PRODUCTCATEGORY}]]></prop2>
+                <products><![CDATA[{PRODUCTSTRING}]]></products>
+                <events><![CDATA[event21,event100]]></events>
+            </variables>
+            <cleanup><![CDATA[pageName,eVar41,hier1,channel,prop4,prop2,products,eVar8,events]]></cleanup>
+        </event>
+        <event type="UPLOAD_ORDER" immediate="true" maxCount="0" method="page">
+            <variables>
+                <pageName><![CDATA[{USERAGENTNAME} : /Uploading order]]></pageName>
+                <eVar41><![CDATA[{USERAGENTNAME} : /Uploading order]]></eVar41>
+                <hier1><![CDATA[{USERAGENTNAME}:Uploading order]]></hier1>
+                <channel><![CDATA[{USERAGENTNAME}]]></channel>
+                <prop4><![CDATA[{USERAGENTNAME}]]></prop4>
+                <prop2><![CDATA[{PRODUCTCATEGORY}]]></prop2>
+                <eVar59><![CDATA[{USERAGENTNAME}|{WARNINGS}]]></eVar59>
+                <products><![CDATA[{PRODUCTSTRING}]]></products>
+                <events><![CDATA[event32,event100]]></events>
+            </variables>
+            <cleanup><![CDATA[pageName,eVar41,hier1,channel,prop4,prop2,products,eVar8,events,eVar59]]></cleanup>
+        </event>
+        <event type="PROCEED_TO_ORDER_NO_WARNINGS" immediate="true" maxCount="0" method="page">
+            <variables>
+                <pageName><![CDATA[{USERAGENTNAME} : /Continue to order]]></pageName>
+                <eVar41><![CDATA[{USERAGENTNAME} : /Continue to order]]></eVar41>
+                <hier1><![CDATA[{USERAGENTNAME}:Continue to order]]></hier1>
+                <channel><![CDATA[{USERAGENTNAME}]]></channel>
+                <prop4><![CDATA[{USERAGENTNAME}]]></prop4>
+                <prop2><![CDATA[{PRODUCTCATEGORY}]]></prop2>
+                <products><![CDATA[{PRODUCTSTRING}]]></products>
+                <eVar59><![CDATA[{USERAGENTNAME}|No Warnings]]></eVar59>
+                <events><![CDATA[event22,event100]]></events>
+            </variables>
+            <cleanup><![CDATA[pageName,eVar41,hier1,channel,prop4,prop2,products,{EVARX},eVar8,prop52,eVar59,events]]></cleanup>
+        </event>
+        <event type="PROCEED_TO_ORDER_WITH_WARNINGS" immediate="true" maxCount="0" method="page">
+            <variables>
+                <pageName><![CDATA[{USERAGENTNAME} : /Continue to order]]></pageName>
+                <eVar41><![CDATA[{USERAGENTNAME} : /Continue to order]]></eVar41>
+                <hier1><![CDATA[{USERAGENTNAME}:Continue to order]]></hier1>
+                <channel><![CDATA[{USERAGENTNAME}]]></channel>
+                <prop4><![CDATA[{USERAGENTNAME}]]></prop4>
+                <prop2><![CDATA[{PRODUCTCATEGORY}]]></prop2>
+                <products><![CDATA[{PRODUCTSTRING}]]></products>
+                <eVar59><![CDATA[{USERAGENTNAME}|{WARNINGS}]]></eVar59>
+                <events><![CDATA[event22,event26,event100]]></events>
+            </variables>
+            <cleanup><![CDATA[pageName,eVar41,hier1,channel,prop4,prop2,products,{EVARX},eVar8,prop52,eVar59,events]]></cleanup>
+        </event>
+        <!-- Link events -->
+        <event type="PHOTO_UPLOAD" immediate="true" maxCount="0" method="link" linkName="Design - Upload photos">
+            <variables>
+                <products><![CDATA[;{PAPID};;;event25=1;evar8={USERAGENTNAME}]]></products>
+                <events><![CDATA[event25]]></events>
+                <prop24><![CDATA[{USERAGENTNAME} - Upload photos]]></prop24>
+                <linkTrackVars><![CDATA[products,prop24,events]]></linkTrackVars>
+                <linkTrackEvents><![CDATA[event25]]></linkTrackEvents>
+            </variables>
+            <cleanup><![CDATA[products,events,prop24,eVar8]]></cleanup>
+        </event>
+        <event type="PHOTO_EDITING" immediate="true" maxCount="0" method="link" linkName="Design - Photo Editing">
+            <variables>
+                <prop24><![CDATA[{USERAGENTNAME} - Photo Editing]]></prop24>
+                <prop30><![CDATA[{USERAGENTNAME} - Effect:{OPERATION}]]></prop30>
+                <linkTrackVars><![CDATA[prop24,prop30]]></linkTrackVars>
+            </variables>
+            <cleanup><![CDATA[prop30,prop24,eVar8]]></cleanup>
+        </event>
+        <event type="SIZE_CHANGE" immediate="true" maxCount="0" method="link" linkName="Design - Size Change">
+            <variables>
+                <prop24><![CDATA[{USERAGENTNAME} - Size Change]]></prop24>
+                <linkTrackVars><![CDATA[prop24]]></linkTrackVars>
+            </variables>
+            <cleanup><![CDATA[prop24,eVar8]]></cleanup>
+        </event>
+    </eventMap>
+</root>
+        <!--
+            @immediate="true|false":		tracking dispatched immediately on trigger, regardless of settings.
+            @maxCount="N":					tracking stops as soon as N events of this type have been tracked.
+            @method="page|link":			track using .track() or .trackLink() methods.
+            @linkName="":					(optional for method=link) the name of the link that will be used.
+         -->

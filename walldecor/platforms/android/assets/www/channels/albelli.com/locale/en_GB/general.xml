@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<general>
+		<navigateAwayMessage>If you leave the {0} now, your changes will be lost. Are you sure you want to close the {0}?</navigateAwayMessage>
+		<title><![CDATA[Canvas]]></title>
+		<!-- {0} will be replaced by articleTypeTranslation -->
+		<productSelectorTitle><![CDATA[{0}]]></productSelectorTitle>
+		<error><![CDATA[error]]></error>
+		<warning><![CDATA[warning]]></warning>
+		<close><![CDATA[OK]]></close>
+		<loading><![CDATA[Loading.]]></loading>
+		<productSpecificationTitle><![CDATA[Specifications:]]></productSpecificationTitle>
+		<productSpecificationSize><![CDATA[Size]]></productSpecificationSize>
+		<productSpecificationPrice><![CDATA[Price]]></productSpecificationPrice>
+		<!-- {0} will be replaced by the formatted Product Default Price -->
+		<productSpecificationPriceText1><![CDATA[{0} (excl.]]></productSpecificationPriceText1>
+		<productSpecificationPricePrice><![CDATA[postage & packaging]]></productSpecificationPricePrice>
+		<productSpecificationPriceText2><![CDATA[)]]></productSpecificationPriceText2>
+		<yes>Yes</yes>
+		<no>No</no>
+		<notificationTitle><![CDATA[]]></notificationTitle>
+		<canvas><![CDATA[Canvas]]></canvas>
+		<perspex><![CDATA[Acrylic]]></perspex>
+		<phonecase><![CDATA[Phone Cases]]></phonecase>
+		<aluminium><![CDATA[Aluminium Prints]]></aluminium>
+		<editor><![CDATA[{0} editor]]></editor>
+	</general>
+	<home>
+		<!-- {0} will be replaced by articleTypeTranslation -->
+		<title><![CDATA[{0}]]></title>
+		<nextStepButton><![CDATA[Create now]]></nextStepButton>
+		<caption><![CDATA[Why not turn your favourite moments, landscapes or even your kids drawings into stunning wall decorations?]]></caption>
+		<previousProductButton><![CDATA[Previous]]></previousProductButton>
+		<nextProductButton><![CDATA[Next]]></nextProductButton>
+	</home>
+	<edit>
+		<colorButton><![CDATA[colour]]></colorButton>
+		<colorButtonTooltip><![CDATA[Click here to use the original photo]]></colorButtonTooltip>
+		<grayScaleButton><![CDATA[black/white]]></grayScaleButton>
+		<grayScaleButtonTooltip><![CDATA[Click here to apply the black and white effect]]></grayScaleButtonTooltip>
+		<sepiaButton><![CDATA[sepia]]></sepiaButton>
+		<sepiaButtonTooltip><![CDATA[Click here to apply the sepia effect]]></sepiaButtonTooltip>
+		<selectFileType><![CDATA[Select a photo]]></selectFileType>
+		<nextStepButton><![CDATA[Next]]></nextStepButton>
+		<marginTooltip><![CDATA[this is the folding margin]]></marginTooltip>
+		<zoomIn><![CDATA[Click to make the photo larger]]></zoomIn>
+		<zoomOut><![CDATA[Click to make the photo smaller]]></zoomOut>
+		<zoomSliderTooltip><![CDATA[Drag to zoom]]></zoomSliderTooltip>
+		<lowQualityTooltip><![CDATA[quality too low for current frame]]></lowQualityTooltip>
+		<photoQualityIndicatorHeaderLabel><![CDATA[Quality: ]]></photoQualityIndicatorHeaderLabel>
+		<!-- {0} will be replaced by the photoQualityRatingLabel -->
+		<photoQualityIndicatorLabel><![CDATA[{0}]]></photoQualityIndicatorLabel>
+		<!-- {0} will be replaced by articleTypeTranslation -->
+		<photoQualityIndicatorTooltipLow><![CDATA[The quality of the photo is too low to guarantee an optimal result. You can, of course, order the {0} in any case, but the result may not be sharp.]]></photoQualityIndicatorTooltipLow>
+		<!-- {0} will be replaced by articleTypeTranslation -->
+		<photoQualityIndicatorTooltipMedium><![CDATA[The quality of the photo is less than optimal. You can, of course, order the {0} in any case, but the result may not be sharp.]]></photoQualityIndicatorTooltipMedium>
+		<!-- {0} will be replaced by articleTypeTranslation -->
+		<photoQualityIndicatorTooltipHigh><![CDATA[The quality of the photo is good.]]></photoQualityIndicatorTooltipHigh>
+		<!-- {0} will be replaced by articleTypeTranslation -->
+		<photoQualityIndicatorTooltipExcellent><![CDATA[The quality of the photo is excellent.]]></photoQualityIndicatorTooltipExcellent>
+		<uploadPhotoLabel><![CDATA[Select your photo]]></uploadPhotoLabel>
+		<uploadDifferentPhotoLabel><![CDATA[Select your photo]]></uploadDifferentPhotoLabel>
+		<uploadPhotoButtonTooltip><![CDATA[Click here to add a photo]]></uploadPhotoButtonTooltip>
+        <emptyPlaceholderText><![CDATA[Add a photo to your {0}]]></emptyPlaceholderText>
+        <photoTray>
+            <addPhotoButton>
+                <text>Add a photo</text>
+                <tooltip>Click here to add a photo</tooltip>
+            </addPhotoButton>
+        </photoTray>
+        <layout>
+            <title>Select a layout</title>
+            <subtitle>Change the number of photos below</subtitle>
+        </layout>
+        <tabs>
+            <photo><![CDATA[Your photos]]></photo>
+            <foreground><![CDATA[Foregrounds]]></foreground>
+            <background><![CDATA[Backgrounds]]></background>
+            <decoration><![CDATA[Frames]]></decoration>
+            <layout><![CDATA[Page layouts]]></layout>
+        </tabs>
+		<photoQualityIndicatorLow><![CDATA[Insufficient]]></photoQualityIndicatorLow>
+		<photoQualityIndicatorMedium><![CDATA[Moderate]]></photoQualityIndicatorMedium>
+		<photoQualityIndicatorHigh><![CDATA[Good]]></photoQualityIndicatorHigh>
+		<photoQualityIndicatorExcellent><![CDATA[Excellent]]></photoQualityIndicatorExcellent>
+	</edit>
+	<customer>
+		<title>Personal details</title>
+		<previousStepButton><![CDATA[back]]></previousStepButton>
+		<nextStepButton><![CDATA[next]]></nextStepButton>
+
+		<customerFirstname><![CDATA[First Name]]></customerFirstname>
+		<customerMiddlename><![CDATA[Middle Name]]></customerMiddlename>
+		<customerLastname><![CDATA[Last Name]]></customerLastname>
+		<customerCountryCode><![CDATA[Country]]></customerCountryCode>
+		<customerStreet><![CDATA[Street]]></customerStreet>
+		<customerHouseNumber><![CDATA[House Number]]></customerHouseNumber>
+		<customerZip><![CDATA[Postcode]]></customerZip>
+		<customerCity><![CDATA[Town/City]]></customerCity>
+		<customerEmail><![CDATA[E-mail]]></customerEmail>
+		<customerPhone><![CDATA[Telephone Number]]></customerPhone>
+		<subscribeToNewsletter><![CDATA[Keep up to date with the latest photo book news, useful tips and promotions.]]></subscribeToNewsletter>
+	</customer>
+	<order>
+		<orderTitle><![CDATA[Your Order]]></orderTitle>
+		<invoiceTitle><![CDATA[Overview]]></invoiceTitle>
+		<numberOfCopiesDescription><![CDATA[(select the desired number of copies here)]]></numberOfCopiesDescription>
+		<subTotal><![CDATA[Subtotal]]></subTotal>
+		<shipping><![CDATA[Postage & packaging]]></shipping>
+		<invoiceDiscount><![CDATA[Discount]]></invoiceDiscount>
+		<total><![CDATA[Total]]></total>
+		
+		<promoTitle><![CDATA[Promotion Code]]></promoTitle>
+		<promoDescription><![CDATA[Do you have a promotion code? Enter the code below.]]></promoDescription>
+		<applyPromoCodeButton><![CDATA[apply]]></applyPromoCodeButton>
+		
+		<deliveryAddressTitle><![CDATA[Delivery Address]]></deliveryAddressTitle>
+		<updateDeliveryAddressButton><![CDATA[update]]></updateDeliveryAddressButton>
+
+		<previousStepButton><![CDATA[back]]></previousStepButton>
+		<submitButton><![CDATA[complete your order]]></submitButton>
+
+		<promotionPopupTitle>Invalid promotion code</promotionPopupTitle>
+		<promotionPopupSubtitle><![CDATA[The promotion code you entered is invalid. Enter a valid promotion code or order without promotion code]]></promotionPopupSubtitle>
+		<promotionPopupEnterPromotionCodeLabel>Promotion code:</promotionPopupEnterPromotionCodeLabel>
+		<promotionPopupCancelLabel>Order without promotion code</promotionPopupCancelLabel>
+		<promotionPopupSubmitLabel>Send</promotionPopupSubmitLabel>
+		
+	</order>
+	<upload>
+		<uploading><![CDATA[Your photo is being sent & uploaded to us. %3%%]]></uploading>
+		<!-- {0} will be replaced by articleTypeTranslation -->
+		<busyUploadingLabel><![CDATA[Your photo is being sent to us so that Albelli can place it on your {0} in a high resolution. This may take a few minutes. You don't need to do anything. As soon as we have received the photo, you will be automatically redirected to the payment screen.]]></busyUploadingLabel>
+	</upload>
+	<help>
+		<helpTitle><![CDATA[Questions?]]></helpTitle>
+		<helpText><![CDATA[View the Frequently Asked Questions]]></helpText>
+		<helpURL><![CDATA[http://albelli.com/customer-service/]]></helpURL>
+		<moreOptionsUrl><![CDATA[http://www.albelli.nl/canvas/meer-opties]]></moreOptionsUrl>
+	</help>
+	<alerts>
+		<invalidPromotionCode><![CDATA[The promotion code is invalid.]]></invalidPromotionCode>
+	</alerts>
+    <warnings>
+        <qualityTitle><![CDATA[Watch out: the quality of your image is too low!]]></qualityTitle>
+        <qualitySubtitle><![CDATA[The quality of your image is not optimal for your chosen product. We want to ensure you receive the best print quality possible.]]></qualitySubtitle>
+        <qualityOptionsTitle><![CDATA[We suggest that you:]]></qualityOptionsTitle>
+        <qualityOptions><![CDATA[<li>make the least use of the zoom function;</li><li>choose a smaller product size;</li><li>use a higher resolution photograph.</li>]]></qualityOptions>
+        <qualityFooter><![CDATA[For more advice please contact our <a href="{CUSTOMER_SERVICE}" target="_blank">customer service</a> team.]]></qualityFooter>
+        <qualityButtonCancel><![CDATA[Back to the editor]]></qualityButtonCancel>
+        <qualityButtonProceed><![CDATA[I understand the risks and wish to continue]]></qualityButtonProceed>
+        <layouts>
+            <lessPlaceholdersThanPhotos>
+                <message><![CDATA[You have selected a photo layout that contains fewer photos than the current page. If you continue, {0} photo(s) will be removed from the current page. Are you sure?]]></message>
+            </lessPlaceholdersThanPhotos>
+        </layouts>
+    </warnings>
+	<errors>
+		<!-- FATAL ERRORS -->
+		<errorBootstrapping><![CDATA[An error occurred during start-up. Contact the helpdesk or try again later.]]></errorBootstrapping>
+		<countryList><![CDATA[An error occurred while retrieving the country list. Contact the helpdesk or try again later.]]></countryList>
+        <browserWarning><![CDATA[Sorry, you can’t design a product in this web browser. Please install the Google Chrome Browser to continue.]]></browserWarning>
+        <lowMemoryWarning><![CDATA[Were you trying to add a photo? It looks like your device is running low on memory. Please close some of your running applications and try again]]></lowMemoryWarning>
+
+		<!-- APPLICATION ERRORS -->
+		<defaultPrice><![CDATA[An error occurred while retrieving the price information. Contact the helpdesk or try again later.]]></defaultPrice>
+		<loadPhotoBitmapData><![CDATA[An error occurred while loading the photo. Contact the helpdesk or try again later.]]></loadPhotoBitmapData>
+		<loadBigPhoto><![CDATA[]]></loadBigPhoto>
+		<creatingPhoto><![CDATA[An error occurred while creating the photo. Contact the helpdesk or try again later.]]></creatingPhoto>
+		<photoRegistration><![CDATA[An error occurred while creating the photo. Contact the helpdesk or try again later.]]></photoRegistration>
+		<addPhotoToPhotoPlaceholderEmpty><![CDATA[An error occurred while adding the photo to the photo frame. Contact the helpdesk or try again later.]]></addPhotoToPhotoPlaceholderEmpty>
+		<addPhotoToPhotoPlaceholder><![CDATA[An error occurred while adding the photo to the photo frame. Contact the helpdesk or try again later.]]></addPhotoToPhotoPlaceholder>
+		<startUploadPhoto><![CDATA[An error occurred while initialising the photo upload. Contact the helpdesk or try again later.]]></startUploadPhoto>
+		<setPhotoCanvas><![CDATA[An error occurred while switching between the products. Contact the helpdesk or try again later.]]></setPhotoCanvas>
+		<createCustomer><![CDATA[An error occurred while collecting the customer details. Contact the helpdesk or try again later.]]></createCustomer>
+		<createOrder><![CDATA[An error occurred while creating the invoice details. Contact the helpdesk or try again later.]]></createOrder>
+		<getInvoice><![CDATA[An error occurred while retrieving the invoice details. Contact the helpdesk or try again later.]]></getInvoice>
+		<sendOrder><![CDATA[An error occurred while sending the order. Contact the helpdesk or try again later.]]></sendOrder>
+		<getPaymentUrl><![CDATA[An error occurred while retrieving the payment details. Contact the helpdesk or try again later.]]></getPaymentUrl>
+	</errors>
+	<validations>
+		<emailMissingAtSign><![CDATA[There is no @ symbol in the e-mail address.]]></emailMissingAtSign>
+		<emailMissingPeriodInDomain><![CDATA[There is no dot (.com) in the e-mail address.]]></emailMissingPeriodInDomain>
+		<emailDomainInvalidFormatted><![CDATA[The domain of the e-mail address is invalid.]]></emailDomainInvalidFormatted>
+		<emailTooManyAtCharacters><![CDATA[The e-mail address contains too many @ symbols.]]></emailTooManyAtCharacters>
+		<emailConsecutivePeriodsInDomain><![CDATA[The e-mail address contains consecutive dots (.).]]></emailConsecutivePeriodsInDomain>
+		<emailInvalidChars><![CDATA[The e-mail address contains invalid characters.]]></emailInvalidChars>
+		<emailInvalidIp><![CDATA[The IP address in the domain of the e-mail address is invalid.]]></emailInvalidIp>
+		<emailMissingUsername><![CDATA[The user name is missing in the e-mail address.]]></emailMissingUsername>
+		<emailRequired><![CDATA[required field]]></emailRequired>
+		<textRequired><![CDATA[required field]]></textRequired>
+		<textTooLong><![CDATA[The maximum number of characters has been reached.]]></textTooLong>
+		<zipcodeRequired><![CDATA[required field]]></zipcodeRequired>
+		<zipcodeInvalid><![CDATA[invalid postal code, use the format:]]></zipcodeInvalid>
+	</validations>
+</root>

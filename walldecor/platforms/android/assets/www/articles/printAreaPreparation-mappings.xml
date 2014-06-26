@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<articles>
+    <!-- This document defines the additional print margins per article,
+            when not defined the default values per ArticleType is used:
+            Canvas (default):     top="0.7874" bottom="0.7874" left="0.7874" right="0.7874"
+            
+            Perspex Landscape/Square (default):    top="0" bottom="0" left="0" right="0.5905"
+            Perspex Portrait:    top="0" bottom="0.5905" left="0" right="0"
+
+            Aluminium Landscape/Square (default):  top="0" bottom="0" left="0" right="0.5905"
+            Aluminium Portrait:  top="0" bottom="0.5905" left="0" right="0"
+    -->
+
+    <!-- Canvas Print Margins -->
+    <article id="PAP_403" top="0.7874" bottom="0.7874" left="0.7874" right="0.7874"/>
+
+    <!-- Perspex Print Margins -->
+    <article id="PAP_454" top="0" bottom="0" left="0" right="0.5905"/>
+
+    <!-- Perspex Portrait -->
+    <article id="PAP_470" top="0" bottom="0.5905" left="0" right="0"/>
+    <article id="PAP_471" top="0" bottom="0.5905" left="0" right="0"/>
+    <article id="PAP_472" top="0" bottom="0.5905" left="0" right="0"/>
+    <article id="PAP_473" top="0" bottom="0.5905" left="0" right="0"/>
+    <article id="PAP_474" top="0" bottom="0.5905" left="0" right="0"/>
+    <article id="PAP_475" top="0" bottom="0.5905" left="0" right="0"/>
+    <article id="PAP_476" top="0" bottom="0.5905" left="0" right="0"/>
+
+    <!-- Aluminium Print Margins -->
+    <article id="PAP_510" top="0" bottom="0" left="0" right="0.5905"/>
+
+    <!-- Aluminium Portrait -->
+    <article id="PAP_517" top="0" bottom="0.5905" left="0" right="0"/>
+    <article id="PAP_518" top="0" bottom="0.5905" left="0" right="0"/>
+    <article id="PAP_519" top="0" bottom="0.5905" left="0" right="0"/>
+    <article id="PAP_520" top="0" bottom="0.5905" left="0" right="0"/>
+    <article id="PAP_521" top="0" bottom="0.5905" left="0" right="0"/>
+    <article id="PAP_522" top="0" bottom="0.5905" left="0" right="0"/>
+    <article id="PAP_523" top="0" bottom="0.5905" left="0" right="0"/>
+
+</articles>

@@ -1,0 +1,84 @@
+/* Bonusprint specific branding */
+
+/* generic body overrides */
+
+body {
+    /*font-family: Arial-BoldMT;*/
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 16px;
+    /* text-shadow: 0px 1px 3px #AC3739; */
+}
+
+/* primary background color overrides */
+.application-wrapper #upload-in-progress #progress-bar,
+.simple-editor .hover-info {
+    background-color: #e92121;
+    font-weight: normal;
+}
+
+#side-panel #type-panel label {
+    color: #e92121;
+}
+
+/* primary text color overrides */
+.simple-editor .quality-display h4 {
+    color: #e92121;
+}
+
+/* hyperlink styling */
+a:visited, a:hover, a:focus, a:link, a:active {
+    color: #0b333c;
+}
+
+.editor-page #order-invocator.busy span .icon {
+    width: 32px;
+    height: 32px;
+}
+
+/* button styling */
+button, .button, a.button
+{
+    border-radius: 4px;
+    background-image: -o-linear-gradient(-90deg, #B31017 0%, #F14F52 100%);
+    background-image: -moz-linear-gradient(-90deg, #B31017 0%, #F14F52 100%);
+    background-image: -webkit-linear-gradient(-90deg, #B31017 0%, #F14F52 100%);
+    background-image: -ms-linear-gradient(-90deg, #B31017 0%, #F14F52 100%);
+    background-image: linear-gradient(-180deg, #B31017 0%, #F14F52 100%);
+    border: 2px solid #AC3739;
+    -moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.20), inset 0px 1px 0px 0px #F96E70;
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.20), inset 0px 1px 0px 0px #F96E70;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.20), inset 0px 1px 0px 0px #F96E70;
+}
+
+button:hover, .button:hover, a.button:hover {
+    background-image: -o-linear-gradient(-90deg, #FDFDFD 0%, #F3F3F4 71%, #E1E1E1 100%);
+    background-image: -moz-linear-gradient(-90deg, #FDFDFD 0%, #F3F3F4 71%, #E1E1E1 100%);
+    background-image: -webkit-linear-gradient(-90deg, #FDFDFD 0%, #F3F3F4 71%, #E1E1E1 100%);
+    background-image: -ms-linear-gradient(-90deg, #FDFDFD 0%, #F3F3F4 71%, #E1E1E1 100%);
+    background-image: linear-gradient(-180deg, #FDFDFD 0%, #F3F3F4 71%, #E1E1E1 100%);
+    border: 1px solid #999999;
+    -moz-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.21), inset 0px 2px 0px 0px #FFFFFF;
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.21), inset 0px 2px 0px 0px #FFFFFF;
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.21), inset 0px 2px 0px 0px #FFFFFF;
+}
+
+i.icon.arrow-right {
+    background: transparent url("arrow-bp-button.png") 0 0 no-repeat;
+    width: 12px;
+    height: 17px;
+}
+
+/* spritesheet overrides */
+
+.upload-overlay span.image,
+.upload-overlay span.text .icon,
+.simple-editor .canvas-holder .button-holder .rotate-button {
+    background-image: url("ui_elements.png");
+}
+
+.simple-slider .goog-slider-thumb {
+    background: transparent url("slider_btn.png") no-repeat 50% 50%;
+    width: 14px;
+    height: 14px;
+}

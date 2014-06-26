@@ -1,0 +1,10 @@
+TEMPORARY TEMPLATES FOLDER
+
+This folder is used to store local .albx files. This can be used to test
+new / in-progress .albx-files during development. On production builds the
+templates should be retrieved from the asset management API.
+
+To test local templates add the "loadLocalTemplates=true"-parameter to the application URL.
+
+The naming convention for the templates is "PAP_xxx.xml" where xxx is the number of the
+product. Note the .xml-extension rather than .albx (as d-dtap won't serve .albx file extensions).

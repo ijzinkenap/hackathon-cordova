@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<general>
+		<navigateAwayMessage>Endringene vil ikke bli lagret hvis du forlater {0} nå. Er du sikker på at du vil lukke {0}?</navigateAwayMessage>
+		<editor><![CDATA[{0} seditorn]]></editor>
+		<title><![CDATA[Lerret]]></title><!-- {0} will be replaced by articleTypeTranslation -->
+		<productSelectorTitle><![CDATA[{0}]]></productSelectorTitle>
+		<error><![CDATA[Feil]]></error>
+		<warning><![CDATA[Advarsel]]></warning>
+		<close><![CDATA[OK]]></close>
+		<loading><![CDATA[Laster]]></loading>
+		<productSpecificationTitle><![CDATA[Spesifikasjoner:]]></productSpecificationTitle>
+		<productSpecificationSize><![CDATA[Størrelse]]></productSpecificationSize>
+		<productSpecificationPrice><![CDATA[Pris]]></productSpecificationPrice>
+		<!-- {0} will be replaced by the formatted Product Default Price -->
+		<productSpecificationPriceText1><![CDATA[{0} (Eks.]]></productSpecificationPriceText1>
+		<productSpecificationPricePrice><![CDATA[fraktkostnader]]></productSpecificationPricePrice>
+		<productSpecificationPriceText2><![CDATA[)]]></productSpecificationPriceText2>
+		<yes>Ja</yes>
+		<no>Nei</no>
+		<notificationTitle><![CDATA[]]></notificationTitle>
+		<canvas><![CDATA[Lerret]]></canvas>
+		<perspex><![CDATA[Plexiglass]]></perspex>
+		<aluminium><![CDATA[Aluminiumstavle]]></aluminium>
+		<phonecase><![CDATA[Mobildeksel]]></phonecase>
+	</general>
+	<home><!-- {0} will be replaced by articleTypeTranslation -->
+		<title><![CDATA[{0}]]></title>
+		<nextStepButton><![CDATA[Opprett nå]]></nextStepButton>
+		<caption><![CDATA[Hvorfor ikke gjøre om dine favorittmotiver, landskaper eller barnas tegninger til slående veggdekorasjoner?]]></caption>
+		<previousProductButton><![CDATA[Forrige]]></previousProductButton>
+		<nextProductButton><![CDATA[Neste]]></nextProductButton>
+	</home>
+	<edit>
+		<colorButton><![CDATA[Farge]]></colorButton>
+		<colorButtonTooltip><![CDATA[Klikk her for å bruke originalfotoet]]></colorButtonTooltip>
+		<grayScaleButton><![CDATA[Svart-hvitt]]></grayScaleButton>
+		<grayScaleButtonTooltip><![CDATA[Klikk her for å bruke svart-hvitt-effekt]]></grayScaleButtonTooltip>
+		<sepiaButton><![CDATA[Sepia]]></sepiaButton>
+		<sepiaButtonTooltip><![CDATA[Klikk her for å bruke sepiaeffekt]]></sepiaButtonTooltip>
+		<selectFileType><![CDATA[Velg et bilde]]></selectFileType>
+		<nextStepButton><![CDATA[Neste]]></nextStepButton>
+		<marginTooltip><![CDATA[Dette er brettemargen]]></marginTooltip>
+		<zoomIn><![CDATA[Klikk for å forstørre fotoet]]></zoomIn>
+		<zoomOut><![CDATA[Klikk for å forminske fotoet]]></zoomOut>
+		<zoomSliderTooltip><![CDATA[Dra for å zoome]]></zoomSliderTooltip>
+		<lowQualityTooltip><![CDATA[Kvaliteten er for dårlig for gjeldende ramme]]></lowQualityTooltip>
+		<photoQualityIndicatorHeaderLabel><![CDATA[Kvalitet: ]]></photoQualityIndicatorHeaderLabel><!-- {0} will be replaced by the photoQualityRatingLabel -->
+		<photoQualityIndicatorLabel><![CDATA[{0}]]></photoQualityIndicatorLabel><!-- {0} will be replaced by articleTypeTranslation -->
+		<photoQualityIndicatorTooltipLow><![CDATA[Kvaliteten på bildet er for dårlig for å garantere et optimalt resultat. Du kan selvfølgelig bestille {0} uansett, men resultatet vil kanskje ikke bli så bra.]]></photoQualityIndicatorTooltipLow><!-- {0} will be replaced by articleTypeTranslation -->
+		<photoQualityIndicatorTooltipMedium><![CDATA[Kvaliteten på bildet er ikke optimal. Du kan selvfølgelig bestille {0} uansett, men resultatet vil kanskje ikke bli så bra.]]></photoQualityIndicatorTooltipMedium><!-- {0} will be replaced by articleTypeTranslation -->
+		<photoQualityIndicatorTooltipHigh><![CDATA[Kvaliteten på bildet er god.]]></photoQualityIndicatorTooltipHigh><!-- {0} will be replaced by articleTypeTranslation -->
+		<photoQualityIndicatorTooltipExcellent><![CDATA[Kvaliteten på bildet er utmerket.]]></photoQualityIndicatorTooltipExcellent>
+		<uploadPhotoLabel><![CDATA[Velg fotoet ditt]]></uploadPhotoLabel>
+		<uploadDifferentPhotoLabel><![CDATA[Velg et annet bilde]]></uploadDifferentPhotoLabel>
+		<uploadPhotoButtonTooltip><![CDATA[Klikk her for å legge til et bilde.]]></uploadPhotoButtonTooltip>
+        <!-- //FIXME: translation -->
+        <emptyPlaceholderText><![CDATA[Add a photo to your {0}]]></emptyPlaceholderText>
+        <photoTray>
+            <addPhotoButton>
+                <text>Legg til et bilde</text>
+                <tooltip>Legg til et bilde</tooltip>
+            </addPhotoButton>
+        </photoTray>
+        <layout>
+            <title>Select a layout</title>
+            <subtitle>Change the number of photos below</subtitle>
+        </layout>
+        <tabs>
+            <photo><![CDATA[Bildene dine]]></photo>
+            <foreground><![CDATA[Forgrunn]]></foreground>
+            <background><![CDATA[Bakgrunn]]></background>
+            <decoration><![CDATA[Ramme]]></decoration>
+            <layout><![CDATA[Oppsett]]></layout>
+        </tabs>
+		<photoQualityIndicatorLow><![CDATA[For dårlig]]></photoQualityIndicatorLow>
+		<photoQualityIndicatorMedium><![CDATA[Moderat]]></photoQualityIndicatorMedium>
+		<photoQualityIndicatorHigh><![CDATA[God]]></photoQualityIndicatorHigh>
+		<photoQualityIndicatorExcellent><![CDATA[Utmerket]]></photoQualityIndicatorExcellent>
+		<rotateLeft><![CDATA[Klikk her for å rotere fotoet mot urviseren]]></rotateLeft>
+		<rotateRight><![CDATA[Klikk her for å rotere fotoet med urviseren]]></rotateRight>
+	</edit>
+	<customer>
+		<title>Personopplysninger</title>
+		<previousStepButton><![CDATA[Tilbake]]></previousStepButton>
+		<nextStepButton><![CDATA[Neste]]></nextStepButton>
+		<customerFirstname><![CDATA[Fornavn]]></customerFirstname>
+		<customerMiddlename><![CDATA[Mellomnavn]]></customerMiddlename>
+		<customerLastname><![CDATA[Etternavn]]></customerLastname>
+		<customerCountryCode><![CDATA[Land]]></customerCountryCode>
+		<customerStreet><![CDATA[Adresse]]></customerStreet>
+		<customerHouseNumber><![CDATA[Husnummer]]></customerHouseNumber>
+		<customerZip><![CDATA[Postnummer]]></customerZip>
+		<customerCity><![CDATA[Poststed]]></customerCity>
+		<customerEmail><![CDATA[E-post]]></customerEmail>
+		<customerPhone><![CDATA[Telefonnummer]]></customerPhone>
+		<subscribeToNewsletter><![CDATA[Hold deg oppdatert på siste nytt om fotoboken, nyttige tips og kampanjetilbud.]]></subscribeToNewsletter>
+	</customer>
+	<order>
+		<orderTitle><![CDATA[Din bestilling]]></orderTitle>
+		<invoiceTitle><![CDATA[Oversikt]]></invoiceTitle>
+		<numberOfCopiesDescription><![CDATA[(velg ønsket antall kopier her)]]></numberOfCopiesDescription>
+		<subTotal><![CDATA[Delsum]]></subTotal>
+		<shipping><![CDATA[Porto og emballasje]]></shipping>
+		<invoiceDiscount><![CDATA[Rabatt]]></invoiceDiscount>
+		<total><![CDATA[Totalsum]]></total>
+		<promoTitle><![CDATA[Rabattkode]]></promoTitle>
+		<promoDescription><![CDATA[Har du en rabattkode? Angi koden under.]]></promoDescription>
+		<applyPromoCodeButton><![CDATA[Bruk]]></applyPromoCodeButton>
+		<deliveryAddressTitle><![CDATA[Leveringsadresse]]></deliveryAddressTitle>
+		<updateDeliveryAddressButton><![CDATA[Oppdater]]></updateDeliveryAddressButton>
+		<previousStepButton><![CDATA[Tilbake]]></previousStepButton>
+		<submitButton><![CDATA[Fullfør bestillingen]]></submitButton>
+		<promotionPopupTitle>Ugyldig rabattkode</promotionPopupTitle>
+		<promotionPopupSubtitle><![CDATA[Den angitte rabattkoden er ugyldig. Angi en gyldig rabattkode eller bestill uten rabattkode]]></promotionPopupSubtitle>
+		<promotionPopupEnterPromotionCodeLabel>Rabattkode:</promotionPopupEnterPromotionCodeLabel>
+		<promotionPopupCancelLabel>Bestill uten rabattkode</promotionPopupCancelLabel>
+		<promotionPopupSubmitLabel>Send</promotionPopupSubmitLabel>
+	</order>
+	<upload>
+		<uploading><![CDATA[Bildet ditt sendes og lastes opp til oss. %3%%]]></uploading><!-- {0} will be replaced by articleTypeTranslation -->
+		<busyUploadingLabel><![CDATA[Bildet ditt blir sendt til oss slik at vi kan plassere det i ditt {0} med høy oppløsning. Dette kan ta noen minutter. Du trenger ikke gjøre noe. Så snart vi har mottatt bildet blir du automatisk videresendt til skjermbildet for betaling.]]></busyUploadingLabel>
+	</upload>
+	<help>
+		<helpTitle><![CDATA[Spørsmål?]]></helpTitle>
+		<helpText><![CDATA[Vis Vanlige spørsmål]]></helpText>
+		<helpURL><![CDATA[http://allfoto.no/kundeservice/faq]]></helpURL>
+		<moreOptionsUrl><![CDATA[http://www.albelli.nl/canvas/meer-opties]]></moreOptionsUrl>
+	</help>
+    <warnings>
+        <qualityTitle><![CDATA[OBS! Kvaliteten på bildet er ikke optimal!]]></qualityTitle>
+        <qualitySubtitle><![CDATA[Kvaliteten på bildet er ikke bra nok for vi kan garantere et optimalt resultat på det valgte produktet.]]></qualitySubtitle>
+        <qualityOptionsTitle><![CDATA[Vi anbefaler følgende:]]></qualityOptionsTitle>
+        <qualityOptions><![CDATA[<li>Ikke bruke zoom-funksjonen;</li><li>Velg et produkt i mindre størrelse;</li><li>Velg et annet bilde.</li>]]></qualityOptions>
+        <qualityFooter><![CDATA[Kontakt vår <a href="{CUSTOMER_SERVICE}" target="_blank">kundeservice</a> dersom du trenger mer hjelp.]]></qualityFooter>
+        <qualityButtonCancel><![CDATA[Tilbake til produktet]]></qualityButtonCancel>
+        <qualityButtonProceed><![CDATA[Jeg forstår risikoen, fortsett bestillingen]]></qualityButtonProceed>
+        <layouts>
+            <lessPlaceholdersThanPhotos>
+                <message><![CDATA[Du har valgt en bildeutforming som inneholder færre bilder enn den gjeldende siden. Hvis du fortsetter vil {0} bilde(r) bli fjernet fra den gjeldende siden. Er du sikker?]]></message>
+            </lessPlaceholdersThanPhotos>
+        </layouts>
+    </warnings>
+	<alerts>
+		<invalidPromotionCode><![CDATA[Rabattkoden er ugyldig.]]></invalidPromotionCode>
+	</alerts>
+	<errors><!-- FATAL ERRORS -->
+		<errorBootstrapping><![CDATA[Det oppsto en feil ved oppstart. Kontakt hjelpesentralen eller prøv igjen senere.]]></errorBootstrapping>
+		<countryList><![CDATA[Det oppsto en feil ved henting av landslisten. Kontakt kundeservice eller prøv igjen senere.]]></countryList><!-- APPLICATION ERRORS -->
+        <browserWarning><![CDATA[Beklager, du kan ikke lage produktet i denne nettleseren. Vennligst installer Google Chrome for å fortsette.]]></browserWarning>
+        <lowMemoryWarning><![CDATA[Prøvde du å legge til et bilde?  Det ser ut som din enhet sliter med minne. Vennligst avslutt noen av dine kjørende applikasjoner og prøv igjen.]]></lowMemoryWarning>
+        <defaultPrice><![CDATA[Det oppsto en feil ved innhenting av prisinformasjon. Kontakt kundeservice eller prøv igjen senere.]]></defaultPrice>
+		<loadPhotoBitmapData><![CDATA[Det oppsto en feil ved lasting av fotoet. Kontakt kundeservice eller prøv igjen senere.]]></loadPhotoBitmapData>
+		<loadBigPhoto><![CDATA[]]></loadBigPhoto>
+		<creatingPhoto><![CDATA[Det oppsto en feil ved oppretting av fotoet. Kontakt kundeservice eller prøv igjen senere.]]></creatingPhoto>
+		<photoRegistration><![CDATA[Det oppsto en feil ved oppretting av fotoet. Kontakt kundeservice eller prøv igjen senere.]]></photoRegistration>
+		<addPhotoToPhotoPlaceholderEmpty><![CDATA[Det oppsto en feil ved tillegging av bild i fotorammen. Kontakt kundeservice eller prøv igjen senere.]]></addPhotoToPhotoPlaceholderEmpty>
+		<addPhotoToPhotoPlaceholder><![CDATA[Det oppsto en feil ved tillegging av bild i fotorammen. Kontakt kundeservice eller prøv igjen senere.]]></addPhotoToPhotoPlaceholder>
+		<startUploadPhoto><![CDATA[Det oppsto en feil ved start av fotoopplasting. Kontakt kundeservice eller prøv igjen senere.]]></startUploadPhoto>
+		<setPhotoCanvas><![CDATA[Det oppsto en feil ved veksling mellom produkter. Kontakt kundeservice eller prøv igjen senere.]]></setPhotoCanvas>
+		<createCustomer><![CDATA[Det oppsto en feil ved innhenting av kundeinformasjon. Kontakt kundeservice eller prøv igjen senere.]]></createCustomer>
+		<createOrder><![CDATA[Det oppsto en feil ved oppretting av fakturainformasjon. Kontakt kundeservice eller prøv igjen senere.]]></createOrder>
+		<getInvoice><![CDATA[Det oppsto en feil ved innhenting av fakturainformasjon. Kontakt kundeservice eller prøv igjen senere.]]></getInvoice>
+		<sendOrder><![CDATA[Det oppsto en feil ved sending av bestillingen. Kontakt kundeservice eller prøv igjen senere.]]></sendOrder>
+	    <getPaymentUrl><![CDATA[Det oppsto en feil ved innhenting av betalingsinformasjon. Kontakt kundeservice eller prøv igjen senere.]]></getPaymentUrl>
+	</errors>
+	<validations>
+		<emailMissingAtSign><![CDATA[Det er ikke noe @-symbol i e-postadressen.]]></emailMissingAtSign>
+		<emailMissingPeriodInDomain><![CDATA[E-postadressen inneholder ikke dot (.com).]]></emailMissingPeriodInDomain>
+		<emailDomainInvalidFormatted><![CDATA[Domenet til e-postadressen er ugyldig.]]></emailDomainInvalidFormatted>
+		<emailTooManyAtCharacters><![CDATA[E-postadressen inneholder for mange @-symboler.]]></emailTooManyAtCharacters>
+		<emailConsecutivePeriodsInDomain><![CDATA[E-postadressen inneholder etterfølgende punktum (.).]]></emailConsecutivePeriodsInDomain>
+		<emailInvalidChars><![CDATA[E-postadressen inneholder ugyldige tegn.]]></emailInvalidChars>
+		<emailInvalidIp><![CDATA[IP-adressen i domenet til e-postadressen er ugyldig.]]></emailInvalidIp>
+		<emailMissingUsername><![CDATA[Brukernavnet mangler fra e-postadressen.]]></emailMissingUsername>
+		<emailRequired><![CDATA[Obligatorisk felt]]></emailRequired>
+		<textRequired><![CDATA[Obligatorisk felt]]></textRequired>
+		<textTooLong><![CDATA[Maksimalt antall tegn er nådd.]]></textTooLong>
+		<zipcodeRequired><![CDATA[Obligatorisk felt]]></zipcodeRequired>
+		<zipcodeInvalid><![CDATA[Ugyldig postnummer, bruk formatet:]]></zipcodeInvalid>
+	</validations>
+</root>

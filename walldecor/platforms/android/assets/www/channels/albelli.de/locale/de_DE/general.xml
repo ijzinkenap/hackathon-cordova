@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<general>
+		<navigateAwayMessage>Wenn Sie die {0} jetzt verlassen, gehen Ihre Änderungen verloren. Sind Sie sicher, dass Sie die {0} schließen wollen?</navigateAwayMessage>
+		<title><![CDATA[Leinwand]]></title>
+		<!-- {0} will be replaced by articleTypeTranslation -->
+		<productSelectorTitle><![CDATA[{0}]]></productSelectorTitle>
+		<error><![CDATA[Fehler]]></error>
+		<warning><![CDATA[Achtung!]]></warning>
+		<close><![CDATA[OK]]></close>
+		<loading><![CDATA[Laden...]]></loading>
+		<productSpecificationTitle><![CDATA[Produktdetails]]></productSpecificationTitle>
+		<productSpecificationSize><![CDATA[Format]]></productSpecificationSize>
+		<productSpecificationPrice><![CDATA[Preis]]></productSpecificationPrice>
+		<!-- {0} will be replaced by the formatted Product Default Price -->
+		<productSpecificationPriceText1><![CDATA[{0} zzgl.]]></productSpecificationPriceText1>
+		<productSpecificationPricePrice><![CDATA[Versandkosten]]></productSpecificationPricePrice>
+		<productSpecificationPriceText2><![CDATA[)]]></productSpecificationPriceText2>
+		<yes>Ja</yes>
+		<no>Nein</no>
+		<notificationTitle><![CDATA[]]></notificationTitle>
+		<canvas><![CDATA[Leinwand]]></canvas>
+		<perspex><![CDATA[Acryl-Glas]]></perspex>
+		<phonecase><![CDATA[Handyhüllen]]></phonecase>
+		<aluminium><![CDATA[Foto auf Alu-Dibond]]></aluminium>
+		<editor><![CDATA[{0} software]]></editor>
+	</general>
+	<home>
+		<!-- {0} will be replaced by articleTypeTranslation -->
+		<title><![CDATA[{0}]]></title>
+		<nextStepButton><![CDATA[Auswählen]]></nextStepButton>
+		<caption><![CDATA[]]></caption>
+		<previousProductButton><![CDATA[Zurück]]></previousProductButton>
+		<nextProductButton><![CDATA[Weiter]]></nextProductButton>
+	</home>
+	<edit>
+		<colorButton><![CDATA[Farbe]]></colorButton>
+		<colorButtonTooltip><![CDATA[Klicken Sie hier, um das Originalfoto zu verwenden]]></colorButtonTooltip>
+		<grayScaleButton><![CDATA[Schwarzweiß]]></grayScaleButton>
+		<grayScaleButtonTooltip><![CDATA[Schwarzweiß-Effekt anwenden]]></grayScaleButtonTooltip>
+		<sepiaButton><![CDATA[Sepia]]></sepiaButton>
+		<sepiaButtonTooltip><![CDATA[Sepia-Effekt anwenden]]></sepiaButtonTooltip>
+		<selectFileType><![CDATA[Foto auswählen]]></selectFileType>
+		<nextStepButton><![CDATA[Weiter]]></nextStepButton>
+		<marginTooltip><![CDATA[Das ist die Faltlinie]]></marginTooltip>
+		<zoomIn><![CDATA[Foto vergrößern]]></zoomIn>
+		<zoomOut><![CDATA[Foto verkleinern]]></zoomOut>
+		<zoomSliderTooltip><![CDATA[Bewegen Sie den Schieberegler, um die Zoomstufe einzustellen]]></zoomSliderTooltip>
+		<lowQualityTooltip><![CDATA[Qualität für gewählte Größe zu gering]]></lowQualityTooltip>
+		<photoQualityIndicatorHeaderLabel><![CDATA[Qualität: ]]></photoQualityIndicatorHeaderLabel>
+		<!-- {0} will be replaced by the photoQualityRatingLabel -->
+		<photoQualityIndicatorLabel><![CDATA[{0}]]></photoQualityIndicatorLabel>
+		<!-- {0} will be replaced by articleTypeTranslation -->
+		<photoQualityIndicatorTooltipLow><![CDATA[Aufgrund der geringen Auflösung dieses Fotos kann kein optimales Ergebnis garantiert werden. Sie können das {0} zwar bestellen, aber das Druckergebnis wird möglicherweise unscharf sein.]]></photoQualityIndicatorTooltipLow>
+		<!-- {0} will be replaced by articleTypeTranslation -->
+		<photoQualityIndicatorTooltipMedium><![CDATA[Die Qualität des Fotos ist nicht optimal. Sie können das {0} zwar bestellen, aber das Druckergebnis wird möglicherweise unscharf sein.]]></photoQualityIndicatorTooltipMedium>
+		<!-- {0} will be replaced by articleTypeTranslation -->
+		<photoQualityIndicatorTooltipHigh><![CDATA[Die Qualität des Fotos ist ausreichend.]]></photoQualityIndicatorTooltipHigh>
+		<!-- {0} will be replaced by articleTypeTranslation -->
+		<photoQualityIndicatorTooltipExcellent><![CDATA[Die Qualität des Fotos ist hervorragend.]]></photoQualityIndicatorTooltipExcellent>
+		<uploadPhotoLabel><![CDATA[Foto auswählen]]></uploadPhotoLabel>
+		<uploadDifferentPhotoLabel><![CDATA[Foto ändern]]></uploadDifferentPhotoLabel>
+		<uploadPhotoButtonTooltip><![CDATA[Klicken Sie hier, um ein Foto hinzuzufügen]]></uploadPhotoButtonTooltip>
+        <!-- //FIXME: translation -->
+        <emptyPlaceholderText><![CDATA[Add a photo to your {0}]]></emptyPlaceholderText>
+        <photoTray>
+            <addPhotoButton>
+                <text>Bilder wählen</text>
+                <tooltip>Bilder wählen</tooltip>
+            </addPhotoButton>
+        </photoTray>
+        <layout>
+            <title>Select a layout</title>
+            <subtitle>Change the number of photos below</subtitle>
+        </layout>
+        <tabs>
+            <photo><![CDATA[Ihre Bilder]]></photo>
+            <foreground><![CDATA[Vordergrund]]></foreground>
+            <background><![CDATA[Hintergrund]]></background>
+            <decoration><![CDATA[Rahmen]]></decoration>
+            <layout><![CDATA[Layout]]></layout>
+        </tabs>
+		<photoQualityIndicatorLow><![CDATA[Unzureichend]]></photoQualityIndicatorLow>
+		<photoQualityIndicatorMedium><![CDATA[Mäßig]]></photoQualityIndicatorMedium>
+		<photoQualityIndicatorHigh><![CDATA[Ausreichend]]></photoQualityIndicatorHigh>
+		<photoQualityIndicatorExcellent><![CDATA[Hervorragend]]></photoQualityIndicatorExcellent>
+		<rotateLeft><![CDATA[]]></rotateLeft>
+    	<rotateRight><![CDATA[]]></rotateRight>
+	</edit>
+	<customer>
+		<title>Persönliche Daten</title>
+		<previousStepButton><![CDATA[< Zurück]]></previousStepButton>
+		<nextStepButton><![CDATA[Weiter]]></nextStepButton>
+
+		<customerFirstname><![CDATA[Vorname]]></customerFirstname>
+		<customerMiddlename><![CDATA[Weitere Vornamen]]></customerMiddlename>
+		<customerLastname><![CDATA[Nachname]]></customerLastname>
+		<customerCountryCode><![CDATA[Land]]></customerCountryCode>
+		<customerStreet><![CDATA[Straße]]></customerStreet>
+		<customerHouseNumber><![CDATA[Hausnummer]]></customerHouseNumber>
+		<customerZip><![CDATA[Postleitzahl]]></customerZip>
+		<customerCity><![CDATA[Ort]]></customerCity>
+		<customerEmail><![CDATA[E-Mail-Adresse]]></customerEmail>
+		<customerPhone><![CDATA[Telefonnummer]]></customerPhone>
+		<subscribeToNewsletter><![CDATA[Immer informiert über aktuelle Meldungen zu Fotobüchern, nützlichen Tipps und Sonderangeboten.]]></subscribeToNewsletter>
+	</customer>
+	<order>
+		<orderTitle><![CDATA[Ihre Bestellung]]></orderTitle>
+		<invoiceTitle><![CDATA[Übersicht]]></invoiceTitle>
+		<numberOfCopiesDescription><![CDATA[(Wählen Sie wie viele Exemplare Sie bestellen möchten)]]></numberOfCopiesDescription>
+		<subTotal><![CDATA[Zwischensumme]]></subTotal>
+		<shipping><![CDATA[Versandkosten]]></shipping>
+		<invoiceDiscount><![CDATA[Rabatt]]></invoiceDiscount>
+		<total><![CDATA[Gesamt]]></total>
+		
+		<promoTitle><![CDATA[Gutschein-Code]]></promoTitle>
+		<promoDescription><![CDATA[Geben Sie den Gutschein-Code hier ein.]]></promoDescription>
+		<applyPromoCodeButton><![CDATA[Verrechnen]]></applyPromoCodeButton>
+		
+		<deliveryAddressTitle><![CDATA[Lieferadresse]]></deliveryAddressTitle>
+		<updateDeliveryAddressButton><![CDATA[Ändern]]></updateDeliveryAddressButton>
+
+		<previousStepButton><![CDATA[Zurück]]></previousStepButton>
+		<submitButton><![CDATA[Bestellung abschließen]]></submitButton>
+
+		<promotionPopupTitle>Ungültiger Gutscheincode</promotionPopupTitle>
+		<promotionPopupSubtitle><![CDATA[Der eingegebene Gutscheincode ist ungültig. Geben Sie einen gültigen Gutscheincode ein oder bestellen Sie ohne Gutscheincode.]]></promotionPopupSubtitle>
+		<promotionPopupEnterPromotionCodeLabel>Gutscheincode:</promotionPopupEnterPromotionCodeLabel>
+		<promotionPopupCancelLabel>Ohne Gutscheincode bestellen</promotionPopupCancelLabel>
+		<promotionPopupSubmitLabel>Senden</promotionPopupSubmitLabel>
+		
+	</order>
+	<upload>
+		<uploading><![CDATA[Ihr Foto wird gesendet. %3%%]]></uploading>
+		<!-- {0} will be replaced by articleTypeTranslation -->
+		<busyUploadingLabel><![CDATA[Das Foto wird hochgeladen, damit es von Albelli in hoher Auflösung auf Ihre {0} gedruckt werden kann. Dies kann einige Minuten dauern. Sie müssen während dieser Zeit nichts unternehmen. Sobald das Foto bei uns angekommen ist, werden Sie automatisch zum Bezahlvorgang weitergeleitet.]]></busyUploadingLabel>
+	</upload>
+	<help>
+		<helpTitle><![CDATA[Sie haben Fragen?]]></helpTitle>
+		<helpText><![CDATA[Gehen Sie zu den FAQs]]></helpText>
+		<helpURL><![CDATA[http://www.albelli.de/kundenservice]]></helpURL>
+		<moreOptionsUrl><![CDATA[http://www.albelli.de/produkte/leinwand]]></moreOptionsUrl>
+	</help>
+	<alerts>
+		<invalidPromotionCode><![CDATA[Der Gutschein-Code ist ungültig.]]></invalidPromotionCode>
+	</alerts>
+    <warnings>
+        <qualityTitle><![CDATA[AUFGEPASST: die Qualität Ihres Fotos ist nicht optimal.]]></qualityTitle>
+        <qualitySubtitle><![CDATA[Die Qualität Ihres Fotos ist im aktuell ausgewählten Produkt nicht optimal, wodurch wir Ihnen nicht die beste Druckqualität garantieren können. Und das wollen wir natürlich.]]></qualitySubtitle>
+        <qualityOptionsTitle><![CDATA[Wir empfehlen Ihnen folgendes:]]></qualityOptionsTitle>
+        <qualityOptions><![CDATA[<li>verwenden Sie die Zoomfunktion nicht;</li><li>wählen Sie ein Produkt in kleinerem Format aus;</li><li>verwenden Sie ein anderes Foto.</li>]]></qualityOptions>
+        <qualityFooter><![CDATA[Persönliche Beratung können Sie sich auch gerne an unseren <a href="{CUSTOMER_SERVICE}" target="_blank">Kundenservice</a> wenden.]]></qualityFooter>
+        <qualityButtonCancel><![CDATA[Zurück zum Produkt]]></qualityButtonCancel>
+        <qualityButtonProceed><![CDATA[Ich bin mir des Risikos bewusst und will trotzdem bestellen]]></qualityButtonProceed>
+        <layouts>
+            <lessPlaceholdersThanPhotos>
+                <message><![CDATA[Sie haben ein Foto-Layout gewählt, das weniger Fotos enthält, als die aktuelle Seite. Wenn Sie den Vorgang fortsetzen, werden {0} Fotos von der aktuellen Seite entfernt. Sind Sie sicher?]]></message>
+            </lessPlaceholdersThanPhotos>
+        </layouts>
+    </warnings>
+	<errors>
+		<!-- FATAL ERRORS -->
+		<errorBootstrapping><![CDATA[Beim Start ist ein Fehler aufgetreten. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.]]></errorBootstrapping>
+		<countryList><![CDATA[Fehler beim Abrufen der Länderliste. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.]]></countryList>
+        <browserWarning><![CDATA[Leider können Sie im aktuell verwendeten Browser kein Produkt gestalten. Bitte installieren Sie den Google Chrome Browser.]]></browserWarning>
+        <lowMemoryWarning><![CDATA[Für diese Aktion verfügt Ihr Gerät momentan nicht über ausreichend Speicherplatz. Bitte schließen Sie laufende Programme und versuchen Sie erneut, ein Foto hochzuladen.]]></lowMemoryWarning>
+
+		<!-- APPLICATION ERRORS -->
+		<defaultPrice><![CDATA[Fehler beim Abrufen der Preisinformationen. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.]]></defaultPrice>
+		<loadPhotoBitmapData><![CDATA[Fehler beim Laden des Fotos. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.]]></loadPhotoBitmapData>
+		<loadBigPhoto><![CDATA[]]></loadBigPhoto>
+		<creatingPhoto><![CDATA[Fehler beim Aufbauen des Fotos. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.]]></creatingPhoto>
+		<photoRegistration><![CDATA[Fehler beim Aufbauen des Fotos. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.]]></photoRegistration>
+		<addPhotoToPhotoPlaceholderEmpty><![CDATA[Fehler beim Hinzufügen des Fotos zum Fotorahmen. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.]]></addPhotoToPhotoPlaceholderEmpty>
+		<addPhotoToPhotoPlaceholder><![CDATA[Fehler beim Hinzufügen des Fotos zum Fotorahmen. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.]]></addPhotoToPhotoPlaceholder>
+		<startUploadPhoto><![CDATA[Fehler beim Initialisieren des Hochladens. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.]]></startUploadPhoto>
+		<setPhotoCanvas><![CDATA[Fehler beim Umstellen auf eine andere Produkt. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.]]></setPhotoCanvas>
+		<createCustomer><![CDATA[Fehler beim Erfassen der Kundendaten. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.]]></createCustomer>
+		<createOrder><![CDATA[Fehler beim Erstellen der Rechnungsdaten. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.]]></createOrder>
+		<getInvoice><![CDATA[Fehler beim Abrufen der Rechnungsdaten. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.]]></getInvoice>
+		<sendOrder><![CDATA[Fehler beim Versenden der Bestellung. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.]]></sendOrder>
+		<getPaymentUrl><![CDATA[Fehler beim Abrufen der Zahlungsdaten. Wenden Sie sich an den Helpdesk, oder versuchen Sie es später noch einmal.]]></getPaymentUrl>
+	</errors>
+	<validations>
+		<emailMissingAtSign><![CDATA[In der E-Mail-Adresse fehlt das @-Zeichen.]]></emailMissingAtSign>
+		<emailMissingPeriodInDomain><![CDATA[In der E-Mail-Adresse fehlt ein Punkt (.de).]]></emailMissingPeriodInDomain>
+		<emailDomainInvalidFormatted><![CDATA[Der Domainname in der E-Mail-Adresse ist ungültig.]]></emailDomainInvalidFormatted>
+		<emailTooManyAtCharacters><![CDATA[In der E-Mail-Adresse kommen zu viele @-Zeichen vor.]]></emailTooManyAtCharacters>
+		<emailConsecutivePeriodsInDomain><![CDATA[In der E-Mail-Adresse kommen aufeinanderfolgende Punkte (.) vor.]]></emailConsecutivePeriodsInDomain>
+		<emailInvalidChars><![CDATA[In der E-Mail-Adresse kommen unzulässige Zeichen vor.]]></emailInvalidChars>
+		<emailInvalidIp><![CDATA[Die IP-Adresse im Domainteil Ihrer E-Mail-Adresse ist ungültig.]]></emailInvalidIp>
+		<emailMissingUsername><![CDATA[In der E-Mail-Adresse fehlt der Benutzername.]]></emailMissingUsername>
+		<emailRequired><![CDATA[Pflichtfeld]]></emailRequired>
+		<textRequired><![CDATA[Pflichtfeld]]></textRequired>
+		<textTooLong><![CDATA[Die maximal mögliche Zeichenanzahl ist erreicht.]]></textTooLong>
+		<zipcodeRequired><![CDATA[Pflichtfeld]]></zipcodeRequired>
+		<zipcodeInvalid><![CDATA[PLZ ungültig. Verwenden Sie das Format:]]></zipcodeInvalid>
+	</validations>
+</root>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<general>
+		<navigateAwayMessage>Als u de {0} nu verlaat zullen alle veranderingen verloren gaan. Weet u zeker dat u de {0} wilt verlaten?</navigateAwayMessage>
+		<title><![CDATA[Canvas]]></title>
+		<!-- {0} will be replaced by articleTypeTranslation -->
+		<productSelectorTitle><![CDATA[{0}]]></productSelectorTitle>
+		<error><![CDATA[fout]]></error>
+		<warning><![CDATA[waarschuwing]]></warning>
+		<close><![CDATA[ok]]></close>
+		<loading><![CDATA[Bezig met laden.]]></loading>
+		<productSpecificationTitle><![CDATA[Specificaties:]]></productSpecificationTitle>
+		<productSpecificationSize><![CDATA[Formaat]]></productSpecificationSize>
+		<productSpecificationPrice><![CDATA[Prijs]]></productSpecificationPrice>
+		<!-- {0} will be replaced by the formatted Product Default Price -->
+		<productSpecificationPriceText1><![CDATA[{0} (excl.]]></productSpecificationPriceText1>
+		<productSpecificationPricePrice><![CDATA[verzendkosten]]></productSpecificationPricePrice>
+		<productSpecificationPriceText2><![CDATA[)]]></productSpecificationPriceText2>
+		<yes>Ja</yes>
+		<no>Nee</no>
+		<notificationTitle><![CDATA[]]></notificationTitle>
+		<canvas><![CDATA[Canvas]]></canvas>
+		<perspex><![CDATA[Plexiglas]]></perspex>
+		<phonecase><![CDATA[Telefoonhoesjes]]></phonecase>
+		<aluminium><![CDATA[Aluminium]]></aluminium>
+		<editor><![CDATA[{0} editor]]></editor>
+	</general>
+	<home>
+		<!-- {0} will be replaced by articleTypeTranslation -->
+		<title><![CDATA[{0}]]></title>
+		<nextStepButton><![CDATA[Dit wil ik]]></nextStepButton>
+		<caption><![CDATA[]]></caption>
+		<previousProductButton><![CDATA[vorige]]></previousProductButton>
+		<nextProductButton><![CDATA[volgende]]></nextProductButton>
+	</home>
+    <layout>
+        <title>Select a layout</title>
+        <subtitle>Change the number of photos below</subtitle>
+        <navigation>
+            <back></back>
+            <next></next>
+            <back-small></back-small>
+            <next-small></next-small>
+        </navigation>
+    </layout>
+    <edit>
+        <navigation>
+            <back></back>
+            <next>bestellen</next>
+            <back-small>terug</back-small>
+            <next-small>bestellen</next-small>
+        </navigation>
+		<selectFileType><![CDATA[Selecteer een foto]]></selectFileType>
+		<nextStepButton><![CDATA[Volgende]]></nextStepButton>
+		<marginTooltip><![CDATA[dit is de omvouw rand]]></marginTooltip>
+		<lowQualityTooltip><![CDATA[kwaliteit te laag voor huidig kader]]></lowQualityTooltip>
+		<photoQualityIndicatorHeaderLabel><![CDATA[Kwaliteit: ]]></photoQualityIndicatorHeaderLabel>
+		<!-- {0} will be replaced by the photoQualityRatingLabel -->
+		<photoQualityIndicatorLabel><![CDATA[{0}]]></photoQualityIndicatorLabel>
+		<!-- {0} will be replaced by articleTypeTranslation -->
+		<photoQualityIndicatorTooltipLow><![CDATA[De foto heeft een te lage kwaliteit om een optimaal resultaat te garanderen. Je kunt het {0} uiteraard gewoon bestellen, maar het resultaat is mogelijk niet scherp.]]></photoQualityIndicatorTooltipLow>
+		<!-- {0} will be replaced by articleTypeTranslation -->
+		<photoQualityIndicatorTooltipMedium><![CDATA[De kwaliteit van de foto is niet optimaal. Je kunt het {0} uiteraard gewoon bestellen, maar het resultaat is mogelijk niet scherp.]]></photoQualityIndicatorTooltipMedium>
+		<!-- {0} will be replaced by articleTypeTranslation -->
+		<photoQualityIndicatorTooltipHigh><![CDATA[De kwaliteit van de foto is goed.]]></photoQualityIndicatorTooltipHigh>
+		<!-- {0} will be replaced by articleTypeTranslation -->
+		<photoQualityIndicatorTooltipExcellent><![CDATA[De kwaliteit van de foto is uitstekend.]]></photoQualityIndicatorTooltipExcellent>
+		<uploadPhotoLabel><![CDATA[Kies je foto]]></uploadPhotoLabel>
+		<uploadDifferentPhotoLabel><![CDATA[Kies een andere foto]]></uploadDifferentPhotoLabel>
+		<uploadPhotoButtonTooltip><![CDATA[Klik hier om een foto toe te voegen]]></uploadPhotoButtonTooltip>
+        <!-- //FIXME: translation -->
+        <emptyPlaceholderText><![CDATA[Voeg een foto toe]]></emptyPlaceholderText>
+        <photoTray>
+            <addPhotoButton>
+                <text>Foto toevoegen</text>
+                <tooltip>Foto toevoegen</tooltip>
+            </addPhotoButton>
+        </photoTray>
+        <photoTools>
+            <zoom>
+                <label></label>
+                <label-small>zoom</label-small>
+                <tooltips>
+                    <slider>Sleep om in te zoomen</slider>
+                    <in><![CDATA[Klik om in te zoomen]]></in>
+                    <out><![CDATA[Klik om uit te zoomen]]></out>
+                </tooltips>
+            </zoom>
+            <effects>
+
+                <label>filters</label>
+                <original>kleur</original>
+                <grayscale>zwart/wit</grayscale>
+                <sepia>sepia</sepia>
+                <close></close>
+
+                <!-- small-viewport: "mobile" -->
+                <label-small>filters</label-small>
+                <original-small>kleur</original-small>
+                <grayscale-small>zwart/wit</grayscale-small>
+                <sepia-small>sepia</sepia-small>
+                <close-small>terug</close-small>
+
+            </effects>
+
+            <rotate>roteren</rotate>
+            <mirror>spiegelen</mirror>
+            <swap>wisselen</swap>
+            <delete>verwijder</delete>
+            <close>terug</close>
+
+            <!-- small-viewport: "mobile" -->
+            <rotate-small>roteren</rotate-small>
+            <mirror-small>spiegelen</mirror-small>
+            <swap-small>wisselen</swap-small>
+            <delete-small>verwijder</delete-small>
+            <close-small>terug</close-small>
+
+        </photoTools>
+        <tabs>
+            <photo><![CDATA[Je foto's]]></photo>
+            <foreground><![CDATA[Voorgronden]]></foreground>
+            <background><![CDATA[Achtergronden]]></background>
+            <decoration><![CDATA[Kaders]]></decoration>
+            <spacing>
+                <title>Opmaak</title>
+                <labels>
+                    <inner>binnen: {0}</inner>
+                    <outer>buiten: {0}</outer>
+
+                    <!-- small-viewport: "mobile" -->
+                    <inner-small>{0}</inner-small>
+                    <outer-small>{0}</outer-small>
+                </labels>
+            </spacing>
+            <layout><![CDATA[Pagina-indelingen]]></layout>
+        </tabs>
+		<photoQualityIndicatorLow><![CDATA[Onvoldoende]]></photoQualityIndicatorLow>
+		<photoQualityIndicatorMedium><![CDATA[Redelijk]]></photoQualityIndicatorMedium>
+		<photoQualityIndicatorHigh><![CDATA[Goed]]></photoQualityIndicatorHigh>
+		<photoQualityIndicatorExcellent><![CDATA[Uitstekend]]></photoQualityIndicatorExcellent>
+		<rotateLeft><![CDATA[klik hier om je foto een kwartslag linksom te draaien]]></rotateLeft>
+    	<rotateRight><![CDATA[klik hier om je foto een kwartslag rechtsom te draaien]]></rotateRight>
+	</edit>
+    <preview>
+        <button>Preview</button>
+        <title>Preview options:</title>
+        <options>
+            <full>Full view</full>
+            <context>Living room</context>
+        </options>
+        <close>Back to edit</close>
+    </preview>
+	<order>
+        <navigation>
+            <back>terug</back>
+            <next></next>
+
+            <!-- small-viewport: "mobile" -->
+            <back-small></back-small>
+            <next-small></next-small>
+        </navigation>
+        <orderTitle><![CDATA[Jouw bestelling]]></orderTitle>
+		<invoiceTitle><![CDATA[Overzicht]]></invoiceTitle>
+		<numberOfCopiesDescription><![CDATA[(selecteer hier het gewenste aantal exemplaren)]]></numberOfCopiesDescription>
+		<subTotal><![CDATA[Subtotaal]]></subTotal>
+		<shipping><![CDATA[Verzendkosten]]></shipping>
+		<invoiceDiscount><![CDATA[Korting]]></invoiceDiscount>
+		<total><![CDATA[Totaal]]></total>
+		
+		<promoTitle><![CDATA[Promotiecode]]></promoTitle>
+		<promoDescription><![CDATA[Heb je een promotiecode? Vul de code hieronder in.]]></promoDescription>
+		<applyPromoCodeButton><![CDATA[verrekenen]]></applyPromoCodeButton>
+		
+		<deliveryAddressTitle><![CDATA[Afleveradres]]></deliveryAddressTitle>
+		<updateDeliveryAddressButton><![CDATA[aanpassen]]></updateDeliveryAddressButton>
+
+		<previousStepButton><![CDATA[terug]]></previousStepButton>
+		<submitButton><![CDATA[jouw bestelling afronden]]></submitButton>
+		
+		<promotionPopupTitle>Ongeldige promotiecode</promotionPopupTitle>
+		<promotionPopupSubtitle><![CDATA[De ingevulde promotiecode is niet geldig. Vul een geldige promotiecode in of bestel zonder promotiecode]]></promotionPopupSubtitle>
+		<promotionPopupEnterPromotionCodeLabel>Promotiecode:</promotionPopupEnterPromotionCodeLabel>
+		<promotionPopupCancelLabel>Bestel zonder promotiecode</promotionPopupCancelLabel>
+		<promotionPopupSubmitLabel>Verzenden</promotionPopupSubmitLabel>
+		
+	</order>
+	<upload>
+		<uploading><![CDATA[Je foto wordt naar ons verstuurd. %3%%]]></uploading>
+		<!-- {0} will be replaced by articleTypeTranslation -->
+		<busyUploadingLabel><![CDATA[Je foto wordt naar ons doorgestuurd zodat Albelli deze in een hoge resolutie op je {0} kan plaatsen. Dit kan enkele minuten duren. Je hoeft hier zelf niets voor te doen. Zodra de foto bij ons binnen is word je automatisch doorgestuurd naar het betaalscherm.]]></busyUploadingLabel>
+	</upload>
+	<help>
+		<helpTitle><![CDATA[Vragen?]]></helpTitle>
+		<helpText><![CDATA[Bekijk de veel gestelde vragen]]></helpText>
+		<helpURL><![CDATA[http://www.albelli.nl/klantenservice/]]></helpURL>
+		<moreOptionsUrl><![CDATA[http://www.albelli.nl/canvas/meer-opties]]></moreOptionsUrl>
+	</help>
+	<alerts>
+		<invalidPromotionCode><![CDATA[De promotiecode is niet geldig.]]></invalidPromotionCode>
+	</alerts>
+    <warnings>
+        <qualityTitle><![CDATA[Let op: de kwaliteit van je foto is niet optimaal!]]></qualityTitle>
+        <qualitySubtitle><![CDATA[De kwaliteit van je foto is niet voldoende voor het gekozen product, waardoor we je niet de beste afdrukkwaliteit kunnen garanderen. En dat willen we natuurlijk wel!]]></qualitySubtitle>
+        <qualityOptionsTitle><![CDATA[We raden je aan:]]></qualityOptionsTitle>
+        <qualityOptions><![CDATA[<li>geen gebruik te maken van de zoomfunctie;</li><li>een kleiner formaat product te kiezen;</li><li>of een andere foto te gebruiken.</li>]]></qualityOptions>
+        <qualityFooter><![CDATA[Voor persoonlijk advies kun je altijd contact opnemen met onze <a href="{CUSTOMER_SERVICE}" target="_blank">klantenservice</a>.]]></qualityFooter>
+        <qualityButtonCancel><![CDATA[Terug naar product]]></qualityButtonCancel>
+        <qualityButtonProceed><![CDATA[Ik begrijp het risico, verder met bestellen]]></qualityButtonProceed>
+        <layouts>
+            <lessPlaceholdersThanPhotos>
+                <message><![CDATA[Je hebt gekozen voor een foto-indeling die minder foto's bevat dan de huidige pagina. Als je verder gaat worden {0} foto's van de pagina verwijderd. Weet je het zeker?]]></message>
+            </lessPlaceholdersThanPhotos>
+        </layouts>
+    </warnings>
+	<errors>
+		<!-- FATAL ERRORS -->
+		<errorBootstrapping><![CDATA[Er is een fout opgetreden tijdens het opstarten. Neem contact op met de helpdesk of probeert u het later nog eens.]]></errorBootstrapping>
+		<countryList><![CDATA[Er is een fout opgetreden tijdens het ophalen van de landenlijst. Neem contact op met de helpdesk of probeert u het later nog eens.]]></countryList>
+        <browserWarning><![CDATA[Sorry, met deze webbrowser kun je dit product niet maken. Installeer Google Chrome om verder te kunnen.]]></browserWarning>
+        <lowMemoryWarning><![CDATA[Wil je een foto toevoegen? Het lijkt erop dat je werkgeheugen te vol is. Sluit zoveel mogelijk openstaande programma’s en probeer het opnieuw.]]></lowMemoryWarning>
+
+		<!-- APPLICATION ERRORS -->
+		<defaultPrice><![CDATA[Er is een fout opgetreden tijdens het ophalen van prijs informatie. Neem contact op met de helpdesk of probeert u het later nog eens.]]></defaultPrice>
+		<loadPhotoBitmapData><![CDATA[Er is een fout opgetreden tijdens het laden van de foto. Neem contact op met de helpdesk of probeert u het later nog eens.]]></loadPhotoBitmapData>
+		<loadBigPhoto><![CDATA[De foto is te groot. Verklein de foto of neem contact op met de helpdesk.]]></loadBigPhoto>
+		<creatingPhoto><![CDATA[Er is een fout opgetreden tijdens het opbouwen van de foto. Neem contact op met de helpdesk of probeert u het later nog eens.]]></creatingPhoto>
+		<photoRegistration><![CDATA[Er is een fout opgetreden tijdens het opbouwen van de foto. Neem contact op met de helpdesk of probeert u het later nog eens.]]></photoRegistration>
+		<addPhotoToPhotoPlaceholderEmpty><![CDATA[Er is een fout opgetreden tijdens het toevoegen van de foto aan het fotokader. Neem contact op met de helpdesk of probeert u het later nog eens.]]></addPhotoToPhotoPlaceholderEmpty>
+		<addPhotoToPhotoPlaceholder><![CDATA[Er is een fout opgetreden tijdens het toevoegen van de foto aan het fotokader. Neem contact op met de helpdesk of probeert u het later nog eens.]]></addPhotoToPhotoPlaceholder>
+		<startUploadPhoto><![CDATA[Er is een fout opgetreden tijdens het initialiseren van de foto upload. Neem contact op met de helpdesk of probeert u het later nog eens.]]></startUploadPhoto>
+		<setPhotoCanvas><![CDATA[Er is een fout opgetreden tijdens het wisselen tussen de producten. Neem contact op met de helpdesk of probeert u het later nog eens.]]></setPhotoCanvas>
+		<createCustomer><![CDATA[Er is een fout opgetreden tijdens het verzamelen van de klant gegevens. Neem contact op met de helpdesk of probeert u het later nog eens.]]></createCustomer>
+		<createOrder><![CDATA[Er is een fout opgetreden tijdens het creeren van de factuur gegevens. Neem contact op met de helpdesk of probeert u het later nog eens.]]></createOrder>
+		<getInvoice><![CDATA[Er is een fout opgetreden tijdens het ophalen van de factuur gegevens. Neem contact op met de helpdesk of probeert u het later nog eens.]]></getInvoice>
+		<sendOrder><![CDATA[Er is een fout opgetreden tijdens het versturen van de bestelling. Neem contact op met de helpdesk of probeert u het later nog eens.]]></sendOrder>
+		<getPaymentUrl><![CDATA[Er is een fout opgetreden tijdens het ophalen van de betalingsgegevens. Neem contact op met de helpdesk of probeert u het later nog eens.]]></getPaymentUrl>
+	</errors>
+	<validations>
+		<emailMissingAtSign><![CDATA[Er ontbreekt een @ in het e-mailadres.]]></emailMissingAtSign>
+		<emailMissingPeriodInDomain><![CDATA[Er ontbreekt een punt (.nl) in het e-mailadres.]]></emailMissingPeriodInDomain>
+		<emailDomainInvalidFormatted><![CDATA[Het domein van het e-mailadres is ongeldig.]]></emailDomainInvalidFormatted>
+		<emailTooManyAtCharacters><![CDATA[Het e-mailadres bevat teveel (@).]]></emailTooManyAtCharacters>
+		<emailConsecutivePeriodsInDomain><![CDATA[Het e-mailadres bevat opeenvolgende punten (.).]]></emailConsecutivePeriodsInDomain>
+		<emailInvalidChars><![CDATA[Het e-mailadres bevat ongeldige karakters.]]></emailInvalidChars>
+		<emailInvalidIp><![CDATA[Het ip-adres in het domein van het e-mailadres is ongeldig.]]></emailInvalidIp>
+		<emailMissingUsername><![CDATA[De gebruikersnaam in het e-mailadres ontbreekt.]]></emailMissingUsername>
+		<emailRequired><![CDATA[verplicht veld]]></emailRequired>
+		<textRequired><![CDATA[verplicht veld]]></textRequired>
+		<textTooLong><![CDATA[Het maximum aantal karakters is bereikt.]]></textTooLong>
+		<zipcodeRequired><![CDATA[verplicht veld]]></zipcodeRequired>
+		<zipcodeInvalid><![CDATA[ongeldige postcode, gebruik het formaat:]]></zipcodeInvalid>
+	</validations>
+</root>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<general>
+		<navigateAwayMessage>Dina ändringar kommer inte att sparas om du lämnar {0} nu. Är du säker på att du vill stänga {0}?</navigateAwayMessage>
+		<editor><![CDATA[{0} editorn]]></editor>
+		<title><![CDATA[Canvas]]></title><!-- {0} will be replaced by articleTypeTranslation --><productSelectorTitle><![CDATA[{0}]]></productSelectorTitle>
+		<error><![CDATA[Fel]]></error>
+		<warning><![CDATA[Varning]]></warning>
+		<close><![CDATA[OK]]></close>
+		<loading><![CDATA[Laddar]]></loading>
+		<productSpecificationTitle><![CDATA[Specifikationer:]]></productSpecificationTitle>
+		<productSpecificationSize><![CDATA[Storlek]]></productSpecificationSize>
+
+		<productSpecificationPrice><![CDATA[Pris]]></productSpecificationPrice>
+		<!-- {0} will be replaced by the formatted Product Default Price -->
+		<productSpecificationPriceText1><![CDATA[{0} (exkl.]]></productSpecificationPriceText1>
+		<productSpecificationPricePrice><![CDATA[porto & frakt]]></productSpecificationPricePrice>
+		<productSpecificationPriceText2><![CDATA[)]]></productSpecificationPriceText2>
+		<yes>Ja</yes>
+		<no>Nej</no>
+		<notificationTitle><![CDATA[]]></notificationTitle>
+		<canvas><![CDATA[Canvas]]></canvas>
+		<perspex><![CDATA[Plexiglas]]></perspex>
+		<aluminium><![CDATA[Aluminium]]></aluminium>
+		<phonecase><![CDATA[Mobilskal]]></phonecase>
+	</general>
+	<home><!-- {0} will be replaced by articleTypeTranslation --><title><![CDATA[{0}]]></title>
+
+		<nextStepButton><![CDATA[Börja här]]></nextStepButton>
+		<caption><![CDATA[Varför inte förvandla dina favoritögonblick, landskapsbilder eller dina barns teckningar till vackra tavlor?]]></caption>
+		<previousProductButton><![CDATA[Föregående]]></previousProductButton>
+		<nextProductButton><![CDATA[Nästa]]></nextProductButton>
+	</home>
+	<edit>
+		<colorButton><![CDATA[Färg]]></colorButton>
+		<colorButtonTooltip><![CDATA[Klicka här för att använda originalbild]]></colorButtonTooltip>
+		<grayScaleButton><![CDATA[Svart/Vit]]></grayScaleButton>
+
+		<grayScaleButtonTooltip><![CDATA[Klicka här för att tillämpa den svartvita effekten]]></grayScaleButtonTooltip>
+		<sepiaButton><![CDATA[Sepia]]></sepiaButton>
+		<sepiaButtonTooltip><![CDATA[Klicka här för att tillämpa sepiaeffekten]]></sepiaButtonTooltip>
+		<selectFileType><![CDATA[Markera en bild]]></selectFileType>
+		<nextStepButton><![CDATA[Nästa]]></nextStepButton>
+		<marginTooltip><![CDATA[Detta är vikmarginalen]]></marginTooltip>
+		<zoomIn><![CDATA[Klicka för att göra bilden större]]></zoomIn>
+		<zoomOut><![CDATA[Klicka för att göra bilden mindre]]></zoomOut>
+		<zoomSliderTooltip><![CDATA[Dra för att zooma]]></zoomSliderTooltip>
+
+		<lowQualityTooltip><![CDATA[Kvalitet för låg för aktuell ram]]></lowQualityTooltip>
+		<photoQualityIndicatorHeaderLabel><![CDATA[Kvalitet: ]]></photoQualityIndicatorHeaderLabel><!-- {0} will be replaced by the photoQualityRatingLabel --><photoQualityIndicatorLabel><![CDATA[{0}]]></photoQualityIndicatorLabel><!-- {0} will be replaced by articleTypeTranslation --><photoQualityIndicatorTooltipLow><![CDATA[Bildkvaliteten är för låg för att garantera ett optimalt resultat. Du kan, naturligtvis, beställa {0} i vilket fall, men resultatet kanske inte är skarpt.]]></photoQualityIndicatorTooltipLow><!-- {0} will be replaced by articleTypeTranslation --><photoQualityIndicatorTooltipMedium><![CDATA[Bildens kvalitet är mindre än optimal. Du kan, naturligtvis, beställa {0} i vilket fall, men resultatet kanske inte är skarpt.]]></photoQualityIndicatorTooltipMedium><!-- {0} will be replaced by articleTypeTranslation --><photoQualityIndicatorTooltipHigh><![CDATA[Bildens kvalitet är bra.]]></photoQualityIndicatorTooltipHigh><!-- {0} will be replaced by articleTypeTranslation --><photoQualityIndicatorTooltipExcellent><![CDATA[Bildens kvalitet är utmärkt.]]></photoQualityIndicatorTooltipExcellent>
+		<uploadPhotoLabel><![CDATA[Markera din bild]]></uploadPhotoLabel>
+		<uploadDifferentPhotoLabel><![CDATA[Markera en annan bild]]></uploadDifferentPhotoLabel>
+		<uploadPhotoButtonTooltip><![CDATA[Klicka här för att lägga till en bild]]></uploadPhotoButtonTooltip>
+        <!-- //FIXME: translation -->
+        <emptyPlaceholderText><![CDATA[Add a photo to your {0}]]></emptyPlaceholderText>
+        <photoTray>
+            <addPhotoButton>
+                <text>Lägg till bild</text>
+                <tooltip>Lägg till bild</tooltip>
+            </addPhotoButton>
+        </photoTray>
+        <layout>
+            <title>Select a layout</title>
+            <subtitle>Change the number of photos below</subtitle>
+        </layout>
+        <tabs>
+            <photo><![CDATA[Dina bilder]]></photo>
+            <foreground><![CDATA[Förgrund]]></foreground>
+            <background><![CDATA[Bakgrund]]></background>
+            <decoration><![CDATA[Ram]]></decoration>
+            <layout><![CDATA[Layout]]></layout>
+        </tabs>
+		<photoQualityIndicatorLow><![CDATA[Otillräcklig]]></photoQualityIndicatorLow>
+		<photoQualityIndicatorMedium><![CDATA[OK]]></photoQualityIndicatorMedium>
+		<photoQualityIndicatorHigh><![CDATA[Bra]]></photoQualityIndicatorHigh>
+		<photoQualityIndicatorExcellent><![CDATA[Utmärkt]]></photoQualityIndicatorExcellent>
+
+		<rotateLeft><![CDATA[Klicka här för att rotera din bild medurs]]></rotateLeft>
+    	<rotateRight><![CDATA[Klicka här för att rotera din bild moturs]]></rotateRight>
+	</edit>
+	<customer>
+		<title>Personliga uppgifter</title>
+		<previousStepButton><![CDATA[Tillbaka]]></previousStepButton>
+		<nextStepButton><![CDATA[Nästa]]></nextStepButton>
+
+		<customerFirstname><![CDATA[Förnamn]]></customerFirstname>
+
+		<customerMiddlename><![CDATA[Mellannamn]]></customerMiddlename>
+		<customerLastname><![CDATA[Efternamn]]></customerLastname>
+		<customerCountryCode><![CDATA[Land]]></customerCountryCode>
+		<customerStreet><![CDATA[Gata]]></customerStreet>
+		<customerHouseNumber><![CDATA[Nummer]]></customerHouseNumber>
+		<customerZip><![CDATA[Postnummer]]></customerZip>
+		<customerCity><![CDATA[Stad]]></customerCity>
+		<customerEmail><![CDATA[E-post]]></customerEmail>
+		<customerPhone><![CDATA[Telefonnummer]]></customerPhone>
+
+		<subscribeToNewsletter><![CDATA[Ja tack jag vill gärna ha förmånliga erbjudanden från Önskefoto.]]></subscribeToNewsletter>
+	</customer>
+	<order>
+		<orderTitle><![CDATA[Din beställning]]></orderTitle>
+		<invoiceTitle><![CDATA[Översikt]]></invoiceTitle>
+		<numberOfCopiesDescription><![CDATA[(välj det önskade antalet kopior här)]]></numberOfCopiesDescription>
+		<subTotal><![CDATA[Delsumma]]></subTotal>
+		<shipping><![CDATA[Porto & frakt]]></shipping>
+		<invoiceDiscount><![CDATA[Rabatt]]></invoiceDiscount>
+
+		<total><![CDATA[Totalt]]></total>
+		
+		<promoTitle><![CDATA[Rabattkod]]></promoTitle>
+		<promoDescription><![CDATA[Har du en rabattkod? Fyll i koden nedan.]]></promoDescription>
+		<applyPromoCodeButton><![CDATA[Använd]]></applyPromoCodeButton>
+		
+		<deliveryAddressTitle><![CDATA[Leveransadress]]></deliveryAddressTitle>
+		<updateDeliveryAddressButton><![CDATA[Uppdatera]]></updateDeliveryAddressButton>
+
+		<previousStepButton><![CDATA[Tillbaka]]></previousStepButton>
+		<submitButton><![CDATA[Slutför beställning]]></submitButton>
+
+		
+		<promotionPopupTitle>Ogiltig rabattkod</promotionPopupTitle>
+		<promotionPopupSubtitle><![CDATA[Den angivna rabattkoden är ogiltig. Fyll i en giltig rabattkod eller beställ utan rabattkod]]></promotionPopupSubtitle>
+		<promotionPopupEnterPromotionCodeLabel>Rabattkod:</promotionPopupEnterPromotionCodeLabel>
+		<promotionPopupCancelLabel>Beställ utan rabattkod</promotionPopupCancelLabel>
+		<promotionPopupSubmitLabel>Skicka</promotionPopupSubmitLabel>
+		
+	</order>
+	<upload>
+
+		<uploading><![CDATA[Din bild skickas och laddas upp till oss. %3%%]]></uploading><!-- {0} will be replaced by articleTypeTranslation -->
+		<busyUploadingLabel><![CDATA[Din bild skickas till oss och placeras på din {0} i en hög upplösning. Detta tar några minuter. Du behöver inte göra någonting. Så fort vi har tagit emot bilden, slussas du automatiskt vidare till betalningssidan.]]></busyUploadingLabel>
+	</upload>
+	<help>
+		<helpTitle><![CDATA[Frågor?]]></helpTitle>
+		<helpText><![CDATA[Visa Vanliga frågor]]></helpText>
+		<helpURL><![CDATA[http://onskefoto.se/kundtjanst/vanliga-fragor]]></helpURL>
+		<moreOptionsUrl><![CDATA[http://www.albelli.nl/canvas/meer-opties]]></moreOptionsUrl>
+	</help>
+	<alerts>
+		<invalidPromotionCode><![CDATA[Rabattkoden är ogiltig.]]></invalidPromotionCode>
+	</alerts>
+    <warnings>
+        <qualityTitle><![CDATA[OBS! Kvaliteten är inte tillräckligt bra!]]></qualityTitle>
+        <qualitySubtitle><![CDATA[Fotos kvalitet är inte tillräckligt bra för att vi ska kunna garantera ett optimalt resultat på den valda produkten.]]></qualitySubtitle>
+        <qualityOptionsTitle><![CDATA[Vi rekommenderar dig att:]]></qualityOptionsTitle>
+        <qualityOptions><![CDATA[<li>Inte använda zoomfunktionen;</li><li>Välja en produkt med mindre storlek;</li><li>Välja ett annat foto.</li>]]></qualityOptions>
+        <qualityFooter><![CDATA[Vill du ha personlig service är du välkommen att kontakta vår <a href="{CUSTOMER_SERVICE}" target="_blank">kundtjänst</a>.]]></qualityFooter>
+        <qualityButtonCancel><![CDATA[Tillbaka till produkten]]></qualityButtonCancel>
+        <qualityButtonProceed><![CDATA[Jag förstår risken, fortsätt beställningen]]></qualityButtonProceed>
+        <layouts>
+            <lessPlaceholdersThanPhotos>
+                <message><![CDATA[Du har valt en bildlayout som innehåller färre bilder än de som finns på denna sida. Om du fortsätter kommer {0} bild(er) att tas bort från sidan. Är du säker?]]></message>
+            </lessPlaceholdersThanPhotos>
+        </layouts>
+    </warnings>
+	<errors><!-- FATAL ERRORS --><errorBootstrapping><![CDATA[Ett fel uppstod vid uppstart. Kontakta helpdesk eller försök igen senare.]]></errorBootstrapping>
+		<countryList><![CDATA[Ett fel uppstod när landslistan hämtades. Kontakta helpdesk eller försök igen senare.]]></countryList><!-- APPLICATION ERRORS --><defaultPrice><![CDATA[Ett fel uppstod när prisinformationen hämtades. Kontakta helpdesk eller försök igen senare.]]></defaultPrice>
+		<loadPhotoBitmapData><![CDATA[Ett fel uppstod när bilden laddades. Kontakta helpdesk eller försök igen senare.]]></loadPhotoBitmapData>
+        <browserWarning><![CDATA[Tyvärr, du kan inte skapa en produkt i denna web browser. Vänligen installera Google Chrome för att fortsätta.]]></browserWarning>
+        <lowMemoryWarning><![CDATA[Försökte du lägga till ett foto? Det ser ut som du har för lite disponibelt lagringsutrymme,  vänligen stäng ner några av dina öppna applikationer och försök igen.]]></lowMemoryWarning>
+        <loadBigPhoto><![CDATA[]]></loadBigPhoto>
+		<creatingPhoto><![CDATA[Ett fel uppstod när bilden skapades. Kontakta helpdesk eller försök igen senare.]]></creatingPhoto>
+		<photoRegistration><![CDATA[Ett fel uppstod när bilden skapades. Kontakta helpdesk eller försök igen senare.]]></photoRegistration>
+		<addPhotoToPhotoPlaceholderEmpty><![CDATA[Ett fel uppstod när bildem lades till till fotoramen. Kontakta helpdesk eller försök igen senare.]]></addPhotoToPhotoPlaceholderEmpty>
+
+		<addPhotoToPhotoPlaceholder><![CDATA[Ett fel uppstod när bildem lades till till fotoramen. Kontakta helpdesk eller försök igen senare.]]></addPhotoToPhotoPlaceholder>
+		<startUploadPhoto><![CDATA[Ett fel uppstod vid initialiseringen av bilduppladdningen. Kontakta helpdesk eller försök igen senare.]]></startUploadPhoto>
+		<setPhotoCanvas><![CDATA[Ett fel uppstod vid växling mellan produkterna. Kontakta helpdesk eller försök igen senare.]]></setPhotoCanvas>
+		<createCustomer><![CDATA[Ett fel uppstod vid insamlingen av kunduppgifterna. Kontakta helpdesk eller försök igen senare.]]></createCustomer>
+		<createOrder><![CDATA[Ett fel uppstod vid skapandet av fakturauppgifter. Kontakta helpdesk eller försök igen senare.]]></createOrder>
+		<getInvoice><![CDATA[Ett fel uppstod när fakturauppgifterna hämtades. Kontakta helpdesk eller försök igen senare.]]></getInvoice>
+		<sendOrder><![CDATA[Ett fel uppstod när beställningen skickades. Kontakta helpdesk eller försök igen senare.]]></sendOrder>
+		<getPaymentUrl><![CDATA[Ett fel uppstod när betalningsuppgifterna hämtades. Kontakta helpdesk eller försök igen senare.]]></getPaymentUrl>
+	</errors>
+	<validations>
+		<emailMissingAtSign><![CDATA[Det finns ingen @-symbol i e-postadressen.]]></emailMissingAtSign>
+		<emailMissingPeriodInDomain><![CDATA[Det finns ingen punkt (.com) i e-postadressen.]]></emailMissingPeriodInDomain>
+		<emailDomainInvalidFormatted><![CDATA[E-postadressens domän är ogiltig.]]></emailDomainInvalidFormatted>
+		<emailTooManyAtCharacters><![CDATA[E-postadressen innehåller för många @-symboler.]]></emailTooManyAtCharacters>
+		<emailConsecutivePeriodsInDomain><![CDATA[E-postadressen innehåller punkter (.) efter varandra]]></emailConsecutivePeriodsInDomain>
+		<emailInvalidChars><![CDATA[E-postadressen innehåller ogiltiga tecken.]]></emailInvalidChars>
+		<emailInvalidIp><![CDATA[IP-adressen i e-postadressens domän är ogiltig.]]></emailInvalidIp>
+		<emailMissingUsername><![CDATA[Användarnamnet saknas i e-postadressen.]]></emailMissingUsername>
+
+		<emailRequired><![CDATA[Obligatoriskt fält]]></emailRequired>
+		<textRequired><![CDATA[Obligatoriskt fält]]></textRequired>
+		<textTooLong><![CDATA[Det högsta antalet tecken har nåtts.]]></textTooLong>
+		<zipcodeRequired><![CDATA[Obligatoriskt fält]]></zipcodeRequired>
+		<zipcodeInvalid><![CDATA[Ogiltigt postnummer, använd formatet:]]></zipcodeInvalid>
+	</validations>
+</root>

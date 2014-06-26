@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+	<general>
+		<navigateAwayMessage>If you leave the {0} now, your changes will be lost. Are you sure you want to close the {0}?</navigateAwayMessage>
+		<title>Canvas</title>
+		<productSelectorTitle>{0}</productSelectorTitle>
+		<error>Error</error>
+		<warning>Warning</warning>
+		<close>OK</close>
+		<loading>Loading.</loading>
+		<productSpecificationTitle>Specifications:</productSpecificationTitle>
+		<productSpecificationSize>Size</productSpecificationSize>
+		<productSpecificationPrice>Price</productSpecificationPrice>
+		<productSpecificationPriceText1><![CDATA[{0} (excl. ]]></productSpecificationPriceText1>
+		<productSpecificationPricePrice><![CDATA[postage & packaging]]></productSpecificationPricePrice>
+		<productSpecificationPriceText2><![CDATA[)]]></productSpecificationPriceText2>
+		<yes>Yes</yes>
+		<no>No</no>
+		<notificationTitle></notificationTitle>
+		<canvas>Canvas</canvas>
+		<perspex>Acrylic</perspex>
+		<phonecase>Phone Cases</phonecase>
+		<aluminium><![CDATA[Aluminium Prints]]></aluminium>
+		<editor>{0} Editor</editor>
+	</general>
+	<home>
+		<title>{0}</title>
+		<nextStepButton>Start creating</nextStepButton>
+		<caption>Transform a wall into a prized space in your home or a friend’s home. Use photos that capture prized memories and turn them into stunning wall decor. You’ll get to relive those memories each time you walk by your canvas print.</caption>
+		<previousProductButton>Previous</previousProductButton>
+		<nextProductButton>Next</nextProductButton>
+	</home>
+    <layout>
+        <title>Select a layout</title>
+        <subtitle>Change the number of photos below</subtitle>
+        <navigation>
+            <back></back>
+            <next></next>
+            <back-small></back-small>
+            <next-small></next-small>
+        </navigation>
+    </layout>
+    <edit>
+        <navigation>
+            <back></back>
+            <next>Order</next>
+            <back-small>Back</back-small>
+            <next-small>Order</next-small>
+        </navigation>
+		<selectFileType>Select a photo</selectFileType>
+		<nextStepButton>Next</nextStepButton>
+		<marginTooltip>This is the folding margin</marginTooltip>
+		<lowQualityTooltip>Quality too low for current frame</lowQualityTooltip>
+		<photoQualityIndicatorHeaderLabel>Quality:</photoQualityIndicatorHeaderLabel>
+		<photoQualityIndicatorLabel>{0}</photoQualityIndicatorLabel>
+		<photoQualityIndicatorTooltipLow>Please note that the quality of your photo is low so we can’t guarantee a great result. Would you like to proceed anyway?</photoQualityIndicatorTooltipLow>
+		<photoQualityIndicatorTooltipMedium>Please note that the quality of your photo is not good enough to guarantee a great result. Would you like to proceed anyway?</photoQualityIndicatorTooltipMedium>
+		<photoQualityIndicatorTooltipHigh>The quality of your photo is good.</photoQualityIndicatorTooltipHigh>
+		<photoQualityIndicatorTooltipExcellent>The quality of your photo is excellent!</photoQualityIndicatorTooltipExcellent>
+		<uploadPhotoLabel>Select your photo</uploadPhotoLabel>
+		<uploadDifferentPhotoLabel>Select your photo</uploadDifferentPhotoLabel>
+		<uploadPhotoButtonTooltip>Click here to add a photo</uploadPhotoButtonTooltip>
+        <emptyPlaceholderText><![CDATA[Add a photo]]></emptyPlaceholderText>
+        <photoTools>
+                <zoom>
+                    <label></label>
+                    <label-small>zoom</label-small>
+                    <tooltips>
+                        <slider>Drag to zoom</slider>
+                        <in><![CDATA[Click to make the photo smaller]]></in>
+                        <out><![CDATA[Click to make the photo larger]]></out>
+                    </tooltips>
+                </zoom>
+                <effects>
+                    <label>Filters</label>
+                    <original>Colour</original>
+                    <grayscale>Black/White</grayscale>
+                    <sepia>Sepia</sepia>
+                    <close></close>
+
+                    <!-- small-viewport: "mobile" -->
+                    <label-small>Filters</label-small>
+                    <original-small>Colour</original-small>
+                    <grayscale-small>Black/White</grayscale-small>
+                    <sepia-small>Sepia</sepia-small>
+                    <close-small>Back</close-small>
+                </effects>
+
+                <rotate>Rotate</rotate>
+                <mirror>Mirror</mirror>
+                <swap>Swap</swap>
+                <delete>Delete</delete>
+                <close></close>
+
+                <!-- small-viewport: "mobile" -->
+                <rotate-small>roteren</rotate-small>
+                <mirror-small>spiegelen</mirror-small>
+                <swap-small>wisselen</swap-small>
+                <delete-small>verwijder</delete-small>
+                <close-small>terug</close-small>
+
+        </photoTools>
+        <photoTray>
+            <addPhotoButton>
+                <text>Add a photo</text>
+                <tooltip>Click here to add a photo</tooltip>
+            </addPhotoButton>
+        </photoTray>
+        <tabs>
+            <photo><![CDATA[Your photos]]></photo>
+            <foreground><![CDATA[Foregrounds]]></foreground>
+            <background><![CDATA[Backgrounds]]></background>
+            <decoration><![CDATA[Frames]]></decoration>
+            <spacing>
+                <title>Spacing/Border</title>
+                <labels>
+                    <inner>inner: {0}</inner>
+                    <outer>outer: {0}</outer>
+
+                    <!-- small-viewport: "mobile" -->
+                    <inner-small>{0}</inner-small>
+                    <outer-small>{0}</outer-small>
+                </labels>
+            </spacing>
+            <layout><![CDATA[Page layouts]]></layout>
+        </tabs>
+		<photoQualityIndicatorLow>Insufficient</photoQualityIndicatorLow>
+		<photoQualityIndicatorMedium>Moderate</photoQualityIndicatorMedium>
+		<photoQualityIndicatorHigh>Good</photoQualityIndicatorHigh>
+		<photoQualityIndicatorExcellent>Excellent !</photoQualityIndicatorExcellent>
+		<rotateLeft>Click here to rotate your photo counter clockwise</rotateLeft>
+		<rotateRight>Click here to rotate your photo clockwise</rotateRight>
+	</edit>
+    <preview>
+        <button>Preview</button>
+        <title>Preview options:</title>
+        <options>
+             <full>Full view</full>
+             <context>Living room</context>
+        </options>
+        <close>Back to edit</close>
+    </preview>
+    <order>
+        <navigation>
+            <back>terug</back>
+            <next></next>
+
+            <!-- small-viewport: "mobile" -->
+            <back-small></back-small>
+            <next-small></next-small>
+        </navigation>
+		<orderTitle>Your order</orderTitle>
+		<invoiceTitle>Overview</invoiceTitle>
+		<numberOfCopiesDescription>(Select the desired number of copies here)</numberOfCopiesDescription>
+		<subTotal>Subtotal</subTotal>
+		<shipping>Postage &amp; packaging</shipping>
+		<invoiceDiscount>Discount</invoiceDiscount>
+		<total>Total</total>
+		<promoTitle>Promotion code</promoTitle>
+		<promoDescription>Do you have a promotion code? Please enter the code below.</promoDescription>
+		<applyPromoCodeButton>Apply</applyPromoCodeButton>
+		<deliveryAddressTitle>Delivery address</deliveryAddressTitle>
+		<updateDeliveryAddressButton>Update!</updateDeliveryAddressButton>
+		<previousStepButton>Back</previousStepButton>
+		<submitButton>Complete your order</submitButton>
+		<promotionPopupTitle>Sorry, that’s an invalid promotion code</promotionPopupTitle>
+		<promotionPopupSubtitle>Sorry, the promotion code you entered is invalid. Please enter a valid promotion code or order without one.</promotionPopupSubtitle>
+		<promotionPopupEnterPromotionCodeLabel>Promotion code:</promotionPopupEnterPromotionCodeLabel>
+		<promotionPopupCancelLabel>Order without a promotion code</promotionPopupCancelLabel>
+		<promotionPopupSubmitLabel>Send</promotionPopupSubmitLabel>
+	</order>
+	<upload>
+		<uploading>Your photo is on its way to us . %3%%</uploading>
+		<busyUploadingLabel>OK, your photo is on its way to us. Once we have it, we’ll place it on your {0} in high resolution. This shouldn’t take long. Once the upload is complete, you’ll be requested to make your payments.</busyUploadingLabel>
+	</upload>
+	<help>
+		<helpTitle>Questions?</helpTitle>
+		<helpText>View our Frequently Asked Questions page</helpText>
+		<helpURL>http://albelli.co.uk/customer-service/</helpURL>
+		<moreOptionsUrl>http://www.albelli.nl/canvas/meer-opties</moreOptionsUrl>
+	</help>
+	<alerts>
+		<invalidPromotionCode>Sorry, the promotion code is invalid</invalidPromotionCode>
+	</alerts>
+    <warnings>
+        <qualityTitle><![CDATA[Watch out: the quality of your image is too low!]]></qualityTitle>
+        <qualitySubtitle><![CDATA[The quality of your image is not optimal for your chosen product. We want to ensure you receive the best print quality possible.]]></qualitySubtitle>
+        <qualityOptionsTitle><![CDATA[We suggest that you:]]></qualityOptionsTitle>
+        <qualityOptions><![CDATA[<li>make the least use of the zoom function;</li><li>choose a smaller product size;</li><li>use a higher resolution photograph.</li>]]></qualityOptions>
+        <qualityFooter><![CDATA[For more advice please contact our <a href="{CUSTOMER_SERVICE}" target="_blank">customer service</a> team.]]></qualityFooter>
+        <qualityButtonCancel><![CDATA[Back to the editor]]></qualityButtonCancel>
+        <qualityButtonProceed><![CDATA[I understand the risks and wish to continue]]></qualityButtonProceed>
+        <layouts>
+            <lessPlaceholdersThanPhotos>
+                <message><![CDATA[You have selected a photo layout that contains fewer photos than the current page. If you continue, {0} photo(s) will be removed from the current page. Are you sure?]]></message>
+            </lessPlaceholdersThanPhotos>
+        </layouts>
+    </warnings>
+	<errors>
+		<errorBootstrapping>Sorry, a problem occurred during start-up. Please contact try again our customer service team or later.</errorBootstrapping>
+		<countryList>Sorry, a problem occurred while retrieving the country list. Please contact our customer service team or try again later.</countryList>
+        <browserWarning><![CDATA[Sorry, you can’t design a product in this web browser. Please install the Google Chrome Browser to continue.]]></browserWarning>
+        <lowMemoryWarning><![CDATA[Were you trying to add a photo? It looks like your device is running low on memory. Please close some of your running applications and try again]]></lowMemoryWarning>
+        <defaultPrice>Sorry, a problem occurred while retrieving the price information. Please contact our customer service team or try again later.</defaultPrice>
+		<loadPhotoBitmapData>Sorry, a problem occurred while loading the photo. Please contact our customer service team or try again later.</loadPhotoBitmapData>
+		<loadBigPhoto></loadBigPhoto>
+		<creatingPhoto>Sorry, a problem occurred while creating the photo. Please contact our customer service team or try again later.</creatingPhoto>
+		<photoRegistration>Sorry, a problem occurred while creating the photo. Please contact our customer service team or try again later.</photoRegistration>
+		<addPhotoToPhotoPlaceholderEmpty>Sorry, a problem occurred while adding the photo the photo frame. Please contact our customer service team or try again later.</addPhotoToPhotoPlaceholderEmpty>
+		<addPhotoToPhotoPlaceholder>Sorry, a problem occurred while adding the photo to the photo frame. Please contact our customer service team or try again later.</addPhotoToPhotoPlaceholder>
+		<startUploadPhoto>Sorry, a problem occurred while initialising the photo upload. Please contact our customer service team or try again later</startUploadPhoto>
+		<setPhotoCanvas>Sorry, a problem occurred while switching between the products. Please contact our customer service team or try again later.</setPhotoCanvas>
+		<createCustomer>Sorry, a problem occurred while collecting the customer details. Please contact our customer service team or try again later.</createCustomer>
+		<createOrder>Sorry, a problem occurred while creating the invoice details. Please contact our customer service team or try again later.</createOrder>
+		<getInvoice>Sorry, a problem occurred while retrieving the invoice details. Please contact our customer service team or try again later.</getInvoice>
+		<sendOrder>Sorry, a problem occurred while sending the order. Please contact our customer service team or try again later.</sendOrder>
+		<getPaymentUrl>Sorry, a problem occurred while retrieving the payment details. Please contact our customer service team or try again later.</getPaymentUrl>
+	</errors>
+	<validations>
+		<emailMissingAtSign>You missed the @ symbol in your e-mail address. Please try again.</emailMissingAtSign>
+		<emailMissingPeriodInDomain>You missed the dot (.) is missing in your e-mail address. Please try again.</emailMissingPeriodInDomain>
+		<emailDomainInvalidFormatted>The domain of your e-mail address is invalid. Please try again.</emailDomainInvalidFormatted>
+		<emailTooManyAtCharacters>Your e-mail address has too many @ symbols – very confusing . Please try again.</emailTooManyAtCharacters>
+		<emailConsecutivePeriodsInDomain>Your e-mail address contains repeated dots (.). Please try again.</emailConsecutivePeriodsInDomain>
+		<emailInvalidChars>The e-mail address you entered is incorrect. Please try again.</emailInvalidChars>
+		<emailInvalidIp>The IP address in the domain of your e-mail address is invalid. Please try again.</emailInvalidIp>
+		<emailMissingUsername>The username in your e-mail address is missing. Please try again.</emailMissingUsername>
+		<emailRequired>Required field</emailRequired>
+		<textRequired>Required field</textRequired>
+		<textTooLong>Sorry, the maximum number of characters has been reached</textTooLong>
+		<zipcodeRequired>Required field</zipcodeRequired>
+		<zipcodeInvalid>Invalid postal code, use the format:</zipcodeInvalid>
+	</validations>
+</root>
