@@ -6,49 +6,12 @@ module.exports = [
         "clobbers": [
             "FileChooser"
         ]
-    },
-    {
-        "file": "plugins/org.apache.cordova.camera/www/CameraConstants.js",
-        "id": "org.apache.cordova.camera.Camera",
-        "clobbers": [
-            "Camera"
-        ]
-    },
-    {
-        "file": "plugins/org.apache.cordova.camera/www/CameraPopoverOptions.js",
-        "id": "org.apache.cordova.camera.CameraPopoverOptions",
-        "clobbers": [
-            "CameraPopoverOptions"
-        ]
-    },
-    {
-        "file": "plugins/org.apache.cordova.camera/www/Camera.js",
-        "id": "org.apache.cordova.camera.camera",
-        "clobbers": [
-            "navigator.camera"
-        ]
-    },
-    {
-        "file": "plugins/org.apache.cordova.camera/www/ios/CameraPopoverHandle.js",
-        "id": "org.apache.cordova.camera.CameraPopoverHandle",
-        "clobbers": [
-            "CameraPopoverHandle"
-        ]
-    },
-    {
-        "file": "plugins/com.vulume.cordova.dbcamera/www/dbcamera.js",
-        "id": "com.vulume.cordova.dbcamera.dbcamera",
-        "clobbers": [
-            "cordova.plugins.dbcamera"
-        ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "com.cesidiodibenedetto.filechooser": "1.0.0",
-    "org.apache.cordova.camera": "0.3.0",
-    "com.vulume.cordova.dbcamera": "0.0.3"
+    "com.cesidiodibenedetto.filechooser": "1.0.0"
 }
 // BOTTOM OF METADATA
 });

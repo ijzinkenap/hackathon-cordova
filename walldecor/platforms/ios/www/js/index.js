@@ -16,6 +16,20 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+
+// invoked after clicking "Preview" in editor
+
+function previewProduct( b64image )
+{
+    alert( "FUCKIN' A!" );
+    
+    // creates <img> element (alternatively use b64image as ImageData and do some awesome shit)
+    //var img = document.createElement( "img" );
+    //img src = b64image;
+    //document.body.appendChild( img ); // make it visible in DOM
+}
+
 var app = {
     // Application Constructor
     initialize: function() {

@@ -9,6 +9,42 @@
         <link href="assets/css/layout.min.css" rel="stylesheet" type="text/css" />
         <meta name="msapplication-tap-highlight" content="no" />
         <title>Walldecor Editor</title>
+        <style>
+            .head {
+                font-size: 16px;
+                font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+                line-height: 20px;
+                height:100px;
+                background-color:#000;
+                color:#FBFBFB;
+            }
+            .logo-text {
+                font-size: 21px;
+                line-height: 24px;
+                padding:60px 0 0 0;
+            }
+            .content {
+                padding:60px 0 0 0;
+                font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+            }
+            .preview-grid img {
+                -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.25);
+                -o-transition: 0.3s;
+                -ms-transition: 0.3s;
+                -moz-transition: 0.3s;
+                -webkit-transition: 0.3s;
+                box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.25);
+            }
+            .preview-grid h4 {
+                font-size:15px;
+                line-height: 18px;
+                margin:10px 0 2px 0;
+            }
+            .preview-grid div {
+                color: #999999;
+            }
+    
+        </style>
     </head>
     <script type="text/javascript">
         // XCode hackage.
@@ -17,7 +53,55 @@
         }
     </script>
     <body class="desktop antialiased" id="application" style="background-color:#F4EFEC;">
-        
+
+      <div class="head">
+          <div class="row" style="height:100px;">
+              <div class="small-12 medium-2 large-2 columns">
+                  &nbsp;
+              </div>
+              <div class="logo-text small-12 medium-8 large-8 columns text-center">
+                  Albelli wall products
+              </div>
+              <div class="small-12 medium-2 large-2 columns">
+                <a href="page2.html">Create new</a><a href="#">Order</a>
+              </div>
+          </div>
+      </div>
+      <div class="content">
+        <div class="row">
+            <div class="small-12 medium-12 large-12 columns">
+                <ul class="preview-grid small-block-grid-2 medium-block-grid-4 large-block-grid-4">
+                    <li>
+                        <img src="assets/images/demo/demo1.png">
+                        <h4 class="text-center">Vacation in the US</h4>
+                        <div class="text-center">Acrylic 70x50cm</div>
+                    </li>
+                    <li>
+                        <img src="assets/images/demo/demo2.png">
+                        <h4 class="text-center">Eliz in India</h4>
+                        <div class="text-center">Acrylic 70x50cm</div>
+                    </li>
+                    <li>
+                        <img src="assets/images/demo/demo3.png">
+                        <h4 class="text-center">Donald in NYC</h4>
+                        <div class="text-center">Acrylic 70x50cm</div>
+                    </li>
+                    <li>
+                        <img src="assets/images/demo/demo4.png">
+                        <h4 class="text-center">Vacation in the US</h4>
+                        <div class="text-center">Acrylic 70x50cm</div>
+                    </li>
+                    <li>
+                        <img src="assets/images/demo/demo5.png">
+                        <h4 class="text-center">Eliz in India</h4>
+                        <div class="text-center">Acrylic 70x50cm</div>
+                    </li>
+                    <li>
+                        <img src="assets/images/demo/demo6.png">
+                    </li>
+                </ul>
+            </div>
+        </div>
       
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
