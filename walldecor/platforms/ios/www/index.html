@@ -10,50 +10,15 @@
         <meta name="msapplication-tap-highlight" content="no" />
         <title>Walldecor Editor</title>
     </head>
-    <body class="desktop " id="application">
-        
-        <a href="page2.html">
-            <img src="assets/images/intro-mockup.png" id="introimage"/>
-        </a>
-
-<!--
-      <div class="row">
-        <div class="small-12 medium-3 large-3 columns">
-            IMAGE WITH PROJECTS LIST<br>
-        </div>
-        <div class="small-12 medium-7 large-7 columns">
-            CLICK ON PLUS TO GO TO EDITOR<br>
-        </div>
-        <div class="small-12 medium-2 large-2 columns">
-            <a href="javascript:launchEditor();">GO TO EDITOR </a>
-        </div>
-      </div>
--->
-=======
+    <script type="text/javascript">
+        // XCode hackage.
+        window.onerror = function(message, url, lineNumber) {
+            console.log("Error: "+message+" in "+url+" at line "+lineNumber);
+        }
+    </script>
     <body class="desktop antialiased" id="application" style="background-color:#F4EFEC;">
         
-        
-         <!--<a href="page2.html">
-            <img src="assets/images/intro-mockup.png" id="introimage"/>
-        </a>-->
-         
-         
-
-      <div class="head" style="height:130px;background-color:#000;color:#FBFBFB;">
-          <div class="row" style="height:130px;">
-              <div class="small-12 medium-2 large-2 columns">
-            
-              </div>
-              <div class="small-12 medium-8 large-7 columns text-center">
-                  Albelli wall products <a href="page2.html">hehe</a>
-              </div>
-              <div class="small-12 medium-2 large-3 columns">
-            Create new Order<a href="javascript:launchEditor();">GO TO EDITOR </a>
-              </div>
-          </div>
-      </div>
       
->>>>>>> 76a092cd6d68f3634893ae5f79f79060b309aa61
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
@@ -63,6 +28,8 @@
                 build       : "4.0.21",
                 environment : "test"
             };
+        
+            var channel = "albelli.nl";
 
             // invoked by Cordova when device is ready
             function loadApplication()
