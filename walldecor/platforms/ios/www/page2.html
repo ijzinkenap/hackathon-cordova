@@ -5,30 +5,21 @@
         <meta name="format-detection" content="telephone=no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link href="assets/css/arc.discovery.min.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/layout.min.css" rel="stylesheet" type="text/css" />
         <meta name="msapplication-tap-highlight" content="no" />
         <title>Walldecor Editor</title>
     </head>
     <body class="desktop " id="application">
         
-        <a href="page2.html">
-            <img src="assets/images/intro-mockup.png" id="introimage"/>
+        <a href="javascript:takePicture();">
+            TAKE PICTURE
+        </a>
+        <a href="javascript:choosePicture();">
+            CHOOSE PICTURE
         </a>
 
-<!--
-      <div class="row">
-        <div class="small-12 medium-3 large-3 columns">
-            IMAGE WITH PROJECTS LIST<br>
-        </div>
-        <div class="small-12 medium-7 large-7 columns">
-            CLICK ON PLUS TO GO TO EDITOR<br>
-        </div>
-        <div class="small-12 medium-2 large-2 columns">
-            <a href="javascript:launchEditor();">GO TO EDITOR </a>
-        </div>
-      </div>
--->
+        <img src="assets/images/intro-mockup.png" id="imagePlaceholder" style="display:none"/>
+
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
@@ -39,14 +30,11 @@
                 environment : "test"
             };
 
-            // invoked by Cordova when device is ready
-            function loadApplication()
-            {
-                
-            }
+            var channel     = "albelli.nl"; // force a channel
+            //var articleType = "Canvas";
 
-            // initialize Cordova
-            app.initialize();
+            
+
 
         </script>
     </body>
