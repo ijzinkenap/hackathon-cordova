@@ -77,7 +77,10 @@ function takePicture()
 // put the image in the "imapePlaceholder" element, in order to make it available to the editor
 function onSuccess(imageData) {
     var image = document.getElementById('imagePlaceholder');
-    image.src = imageData;
+    if ( image )
+    {
+        image.src = imageData;
+    }
     launchEditor();
 }
 
