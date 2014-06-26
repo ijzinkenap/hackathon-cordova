@@ -62,20 +62,18 @@
     <string>????</string>
     <key>CFBundleVersion</key>
     <string>0.0.1</string>
+    <key>LSApplicationCategoryType</key>
+    <string></string>
     <key>LSRequiresIPhoneOS</key>
     <true/>
     <key>NSMainNibFile</key>
     <string></string>
-    <key>NSMainNibFile~ipad</key>
-    <string></string>
+    <key>UIStatusBarHidden</key>
+    <true/>
     <key>UISupportedInterfaceOrientations</key>
     <array>
       <string>UIInterfaceOrientationLandscapeRight</string>
     </array>
-    <key>UIStatusBarHidden</key>
-    <true/>
-    <key>LSApplicationCategoryType</key>
-    <string></string>
     <key>UIViewControllerBasedStatusBarAppearance</key>
     <false/>
   </dict>

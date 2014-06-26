@@ -87,6 +87,9 @@
         },
         "org.apache.cordova.camera": {
             "PACKAGE_NAME": "com.albumprinter.walldecor"
+        },
+        "com.vulume.cordova.dbcamera": {
+            "PACKAGE_NAME": "com.albumprinter.walldecor"
         }
     },
     "dependent_plugins": {}
