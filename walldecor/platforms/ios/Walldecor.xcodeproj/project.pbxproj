@@ -41,6 +41,9 @@
 		A9F948267F994CF3A192C373 /* CDVCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = DB24406F7E734B57AA446F8A /* CDVCamera.m */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		FEE74178EF514277996C418A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A678199C82914F8788E2106A /* ImageIO.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		60F92A2B38C146A4AADE86E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F10267BD8AF46B1AA9B5488 /* Foundation.framework */; };
+		E71676753B7B42CB826732A2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41270F16E10C4BF4A097564E /* AVFoundation.framework */; };
+		A23A5CD43E73481DA5E69E6E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F425727D7B54B4D824F48B3 /* CoreMedia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +114,9 @@
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = Walldecor/config.xml; sourceTree = "<group>"; };
+		3F10267BD8AF46B1AA9B5488 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		41270F16E10C4BF4A097564E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AVFoundation.framework"; path = "System/Library/Frameworks/AVFoundation.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		9F425727D7B54B4D824F48B3 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreMedia.framework"; path = "System/Library/Frameworks/CoreMedia.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +130,9 @@
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
 				5AEE5B35173C68D80009041E /* CoreLocation.framework in Frameworks */,
 				FEE74178EF514277996C418A /* ImageIO.framework in Frameworks */,
+				60F92A2B38C146A4AADE86E2 /* Foundation.framework in Frameworks */,
+				E71676753B7B42CB826732A2 /* AVFoundation.framework in Frameworks */,
+				A23A5CD43E73481DA5E69E6E /* CoreMedia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +227,9 @@
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
 				A678199C82914F8788E2106A /* ImageIO.framework */,
+				3F10267BD8AF46B1AA9B5488 /* Foundation.framework */,
+				41270F16E10C4BF4A097564E /* AVFoundation.framework */,
+				9F425727D7B54B4D824F48B3 /* CoreMedia.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -520,7 +532,7 @@
 				);
 				PRODUCT_NAME = Walldecor;
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -554,7 +566,7 @@
 				);
 				PRODUCT_NAME = Walldecor;
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

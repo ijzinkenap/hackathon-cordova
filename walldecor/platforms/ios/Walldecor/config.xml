@@ -22,6 +22,9 @@
     <feature name="Camera">
         <param name="ios-package" value="CDVCamera" />
     </feature>
+    <feature name="DBCamera">
+        <param name="ios-package" value="CDVdbcamera" />
+    </feature>
     <name>Walldecor</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
