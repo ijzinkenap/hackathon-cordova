@@ -67,7 +67,7 @@ function choosePicture()
 function takePicture()
 {
     navigator.camera.getPicture(onSuccess, onFail, {
-        quality: 80,
+        quality: 50,
         destinationType: Camera.DestinationType.FILE_URI
     });
 }
@@ -77,7 +77,10 @@ function takePicture()
 // put the image in the "imapePlaceholder" element, in order to make it available to the editor
 function onSuccess(imageData) {
     var image = document.getElementById('imagePlaceholder');
-    image.src = imageData;
+    if ( image )
+    {
+        image.src = imageData;
+    }
     launchEditor();
 }
 
@@ -99,8 +102,10 @@ function launchEditor()
     document.getElementsByTagName( "head" )[ 0 ].appendChild( script );
 }
 
+/*
 // Function to launch the camera with an image on top as if in Preview mode
 function previewImage()
 {
     //cordova.plugins.dbcamera.openCameraWithoutContainer(onSuccess, onFail);
 }
+*/

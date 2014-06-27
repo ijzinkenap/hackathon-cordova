@@ -11,12 +11,16 @@
     </head>
     <body class="desktop " id="application">
         
-        <a href="index.html">Back</a>
-        <a href="javascript:takePicture();">
-            TAKE PICTURE
+        <a href="index.html">
+            <div style="width:40px;height:40px;font-size:40px;padding:100px;display:block;background-color:red;color:white;margin:20px;">Back</div>
         </a>
+        
+        <a href="javascript:takePicture();">
+            <div style="width:40px;height:40px;font-size:40px;padding:100px;display:block;background-color:green;color:white;margin:20px;">TAKE PICTURE</div>
+        </a>
+        
         <a href="javascript:choosePicture();">
-            CHOOSE PICTURE
+            <div style="width:40px;height:40px;font-size:40px;padding:100px;display:block;background-color:blue;color:white;margin:20px;">CHOOSE PICTURE</div>
         </a>
 
         <img src="assets/images/intro-mockup.png" id="imagePlaceholder" style="display:none"/>
@@ -35,5 +39,6 @@
             //var articleType = "Canvas";
 
         </script>
+        
     </body>
 </html>

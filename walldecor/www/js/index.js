@@ -67,7 +67,7 @@ function choosePicture()
 function takePicture()
 {
     navigator.camera.getPicture(onSuccess, onFail, {
-        quality: 80,
+        quality: 50,
         destinationType: Camera.DestinationType.FILE_URI
     });
 }
@@ -102,8 +102,10 @@ function launchEditor()
     document.getElementsByTagName( "head" )[ 0 ].appendChild( script );
 }
 
+/*
 // Function to launch the camera with an image on top as if in Preview mode
 function previewImage()
 {
     //cordova.plugins.dbcamera.openCameraWithoutContainer(onSuccess, onFail);
 }
+*/
