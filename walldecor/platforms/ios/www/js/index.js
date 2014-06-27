@@ -17,24 +17,20 @@
  * under the License.
  */
 
+var environment = {
+    version     : "4.0",
+    build       : "4.0.21",
+    environment : "test"
+};
 
-// invoked after clicking "Preview" in editor
-
-function previewProduct( b64image )
-{
-    alert( "FUCKIN' A!" );
-    
-    // creates <img> element (alternatively use b64image as ImageData and do some awesome shit)
-    //var img = document.createElement( "img" );
-    //img src = b64image;
-    //document.body.appendChild( img ); // make it visible in DOM
-}
+var channel = "albelli.nl";
 
 var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
     },
+    
     // Bind Event Listeners
     //
     // Bind any events that are required on startup. Common events are:
@@ -42,6 +38,7 @@ var app = {
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
     },
+    
     // deviceready Event Handler
     //
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
@@ -49,6 +46,7 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
     },
+    
     // Update DOM on a Received Event
     receivedEvent: function(id)
     {
@@ -57,38 +55,44 @@ var app = {
 
 };
 
-// SHOWS THE PHOTO LIBRAEY PHOTO SELECTOR
+// SHOWS THE PHOTO LIBRARY PHOTO SELECTOR
 function choosePicture()
 {
-    navigator.camera.getPicture(onSuccess, onFail, { sourceType : Camera.PictureSourceType.PHOTOLIBRARY });
+    navigator.camera.getPicture(onSuccess, onFail, {
+        sourceType : Camera.PictureSourceType.PHOTOLIBRARY,
+        destinationType: Camera.DestinationType.FILE_URI
+    });
 }
 
 // OPENS THE CAMERA AND ALLOWS USER TO TAKE A PICTURE
 function takePicture()
 {
     navigator.camera.getPicture(onSuccess, onFail, {
-        quality: 50,
+        quality: 40,
         destinationType: Camera.DestinationType.FILE_URI
     });
 }
 
 
 // ON SUCCESS
-// put the image in the "imapePlaceholder" element, in order to make it available to the editor
+// put the selected image in the "placeholderImage" element, in order to make it available to the editor
 function onSuccess(imageData) {
-    var image = document.getElementById('imagePlaceholder');
+    var image = document.getElementById('placeholderImage');
     if ( image )
-    {
-        image.src = imageData;
-    }
+    { image.src = imageData; }
+    
+    document.getElementById("optionsArea").style.display = "none";
+    
     launchEditor();
 }
 
+
 // ON ERROR
-// returnr to page 2
+// returrn to page 2
 function onFail(message) {
-    //alert('Failed because: ' + message);
-    //launchEditor();
+    alert('Failed because: ' + message);
+    
+    window.location.href = "page2.html";
 }
 
 
@@ -102,10 +106,14 @@ function launchEditor()
     document.getElementsByTagName( "head" )[ 0 ].appendChild( script );
 }
 
-/*
-// Function to launch the camera with an image on top as if in Preview mode
-function previewImage()
+
+// invoked after clicking "Preview" in editor
+function previewProduct( b64image )
 {
-    //cordova.plugins.dbcamera.openCameraWithoutContainer(onSuccess, onFail);
+    alert( "FUCKIN' A!" );
+    
+    // creates <img> element (alternatively use b64image as ImageData and do some awesome shit)
+    //var img = document.createElement( "img" );
+    //img src = b64image;
+    //document.body.appendChild( img ); // make it visible in DOM
 }
-*/
