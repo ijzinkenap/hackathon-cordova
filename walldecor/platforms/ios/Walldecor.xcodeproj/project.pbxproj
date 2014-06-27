@@ -39,8 +39,6 @@
 		7E7966E51810823500FA85AD /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DB1810823500FA85AD /* icon-76@2x.png */; };
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
-		93F497E7195D6C6200D1C62B /* CDVCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F497E3195D6C6200D1C62B /* CDVCamera.m */; };
-		93F497E8195D6C6200D1C62B /* CDVJpegHeaderWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F497E6195D6C6200D1C62B /* CDVJpegHeaderWriter.m */; };
 		A23A5CD43E73481DA5E69E6E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F425727D7B54B4D824F48B3 /* CoreMedia.framework */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		E71676753B7B42CB826732A2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41270F16E10C4BF4A097564E /* AVFoundation.framework */; };
@@ -106,11 +104,6 @@
 		7E7966DC1810823500FA85AD /* icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small.png"; sourceTree = "<group>"; };
 		7E7966DD1810823500FA85AD /* icon-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small@2x.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Walldecor-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Walldecor-Info.plist"; path = "../Walldecor-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		93F497E2195D6C6200D1C62B /* CDVCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVCamera.h; sourceTree = "<group>"; };
-		93F497E3195D6C6200D1C62B /* CDVCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVCamera.m; sourceTree = "<group>"; };
-		93F497E4195D6C6200D1C62B /* CDVExif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVExif.h; sourceTree = "<group>"; };
-		93F497E5195D6C6200D1C62B /* CDVJpegHeaderWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVJpegHeaderWriter.h; sourceTree = "<group>"; };
-		93F497E6195D6C6200D1C62B /* CDVJpegHeaderWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVJpegHeaderWriter.m; sourceTree = "<group>"; };
 		9F425727D7B54B4D824F48B3 /* CoreMedia.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		A678199C82914F8788E2106A /* ImageIO.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
@@ -246,11 +239,6 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				93F497E2195D6C6200D1C62B /* CDVCamera.h */,
-				93F497E3195D6C6200D1C62B /* CDVCamera.m */,
-				93F497E4195D6C6200D1C62B /* CDVExif.h */,
-				93F497E5195D6C6200D1C62B /* CDVJpegHeaderWriter.h */,
-				93F497E6195D6C6200D1C62B /* CDVJpegHeaderWriter.m */,
 			);
 			name = Plugins;
 			path = Walldecor/Plugins;
@@ -447,8 +435,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93F497E8195D6C6200D1C62B /* CDVJpegHeaderWriter.m in Sources */,
-				93F497E7195D6C6200D1C62B /* CDVCamera.m in Sources */,
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
